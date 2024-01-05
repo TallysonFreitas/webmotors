@@ -49,7 +49,7 @@ export const HeaderContainer = styled.header`
         color: #000;
         padding: 16px 8px 16px 24px;
         text-align: left;
-        width: 200px;
+        width: 240px;
 
         svg {
           width: 25px;

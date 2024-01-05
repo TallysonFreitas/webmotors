@@ -17,22 +17,53 @@ export const HeaderContainer = styled.header`
   .nav {
     display: flex;
 
-    li {
-      padding: 18px 16px;
+    .dropdown {
+      padding: 22px 16px;
       transition: border-bottom ease 0.1s;
       border-bottom: 2px solid transparent;
+      font-weight: semi-bold;
+      font-size: 12px;
+      color: #000;
+      cursor: default;
+      position: relative;
 
       &:hover {
         border-bottom: 2px solid #f00;
       }
 
-      a {
-        font-weight: semi-bold;
-        font-size: 12px;
-        padding: 50% 0;
-        color: #000;
-        text-decoration: none;
+      .dropdown-menu {
+        position: absolute;
+        left: 0;
+        background-color: #fff;
+        display: none;
+        z-index: 1;
+        margin-top: 24px;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
       }
+
+      .dropdown-menu a {
+        display: flex;
+        justify-content: left;
+        gap: 8px;
+        text-decoration: none;
+        color: #000;
+        padding: 16px 8px 16px 24px;
+        text-align: left;
+        width: 200px;
+
+        svg {
+          width: 25px;
+          height: 22px;
+        }
+      }
+
+      .dropdown-menu a:hover {
+        background-color: #ecedf2;
+      }
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
     }
   }
 

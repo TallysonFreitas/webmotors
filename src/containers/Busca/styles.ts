@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const BuscaContainer = styled.div`
   width: 80%;
+  margin: 0 auto;
   padding: 16px 24px;
   background-color: #fff;
   margin-top: 40px;
@@ -9,6 +10,10 @@ export const BuscaContainer = styled.div`
   gap: 8px;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1440px) {
+    width: 100%;
+  }
 
   .buttons-menu {
     display: flex;

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const EstiloGlobal = createGlobalStyle`
 *{
@@ -7,4 +7,13 @@ export const EstiloGlobal = createGlobalStyle`
   box-sizing:border-box;
   list-style:none;
   font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color:#ECEDF2;
 }`
+
+export const ContainerPadrao = styled.div`
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+`

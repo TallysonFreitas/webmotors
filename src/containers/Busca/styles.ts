@@ -7,7 +7,7 @@ export const BuscaContainer = styled.div`
   background-color: #fff;
   margin-top: 40px;
   border-radius: 8px;
-  gap: 8px;
+  gap: 16px;
   display: flex;
   flex-direction: column;
 
@@ -69,9 +69,10 @@ export const BuscaContainer = styled.div`
 
     .input-buscar {
       display: flex;
+      align-items: center;
       width: 70%;
       border-radius: 8px;
-      border: 2px solid #ccc;
+      border: 2px solid #eee;
       font-weight: bold;
       color: #eee;
       position: relative;

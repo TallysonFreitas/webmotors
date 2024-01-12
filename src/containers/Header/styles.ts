@@ -19,13 +19,14 @@ export const HeaderContainer = styled.header`
 
     .dropdown {
       padding: 22px 16px;
-      transition: border-bottom ease 0.1s;
+      transition: border-bottom ease 0.2s;
       border-bottom: 2px solid transparent;
-      font-weight: semi-bold;
+      font-weight: 500;
       font-size: 12px;
       color: #000;
       cursor: default;
       position: relative;
+      cursor: pointer;
 
       &:hover {
         border-bottom: 2px solid #f00;

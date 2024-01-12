@@ -22,7 +22,7 @@ export const BuscaContainer = styled.div`
     button {
       background-color: transparent;
       border: none;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: bold;
       cursor: pointer;
       padding: 8px 0;
@@ -34,25 +34,59 @@ export const BuscaContainer = styled.div`
         border-bottom: 3px solid #f00;
         color: #000;
       }
+
+      &:hover {
+        color: #000;
+      }
     }
   }
 
   .inputs {
-    input {
-      padding: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .link {
+      background-color: #e00;
+      transition: all ease 0.2s;
+      width: 20%;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      color: #eee;
+      text-decoration: none;
+      font-weight: 600;
+
+      &:hover {
+        background-color: #a00;
+      }
+    }
+
+    .input-buscar {
+      display: flex;
       width: 70%;
       border-radius: 8px;
       border: 2px solid #ccc;
       font-weight: bold;
       color: #eee;
       position: relative;
+      padding: 2px;
 
-      &::before {
-        content: '11111111111111111';
-        position: absolute;
-        margin: auto 0;
-        left: 0;
-        bottom: 0;
+      svg {
+        width: 5%;
+        padding: 8px 8px;
+      }
+
+      input {
+        width: 95%;
+        height: 100%;
+        padding: 8px 12px;
+        border: none;
+        font-weight: 600;
+        outline: none;
       }
     }
   }

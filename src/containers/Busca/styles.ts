@@ -19,7 +19,7 @@ export const BuscaContainer = styled.div`
     display: flex;
     gap: 24px;
 
-    button {
+    .buttons-menu--item {
       background-color: transparent;
       border: none;
       font-size: 14px;
@@ -29,8 +29,9 @@ export const BuscaContainer = styled.div`
       border-bottom: 3px solid transparent;
       transition: border-bottom ease 0.2s;
       color: #777;
+      text-decoration: none;
 
-      &:focus {
+      &.active {
         border-bottom: 3px solid #f00;
         color: #000;
       }
@@ -59,6 +60,7 @@ export const BuscaContainer = styled.div`
       color: #eee;
       text-decoration: none;
       font-weight: 600;
+      font-size: 14px;
 
       &:hover {
         background-color: #a00;

@@ -5,6 +5,14 @@ export const ContainerItemCategoria = styled.div`
   border-radius: 8px;
   overflow: hidden;
   min-width: 216px;
+  height: 216px;
+  padding-bottom: -8px;
+
+  a {
+    position: absolute;
+    inset: 0px;
+    z-index: 1000;
+  }
 
   img {
     inset: 0px;

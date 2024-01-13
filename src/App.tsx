@@ -1,6 +1,7 @@
 import Busca from './containers/Busca'
+import Filtros from './containers/Filtros'
 import Header from './containers/Header'
-import { EstiloGlobal } from './style'
+import { ContainerPadrao, EstiloGlobal } from './style'
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <EstiloGlobal />
       <Header />
       <Busca />
+      <ContainerPadrao>
+        <Filtros />
+      </ContainerPadrao>
     </>
   )
 }

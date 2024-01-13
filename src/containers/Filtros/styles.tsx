@@ -5,14 +5,14 @@ export const Filtro = styled.div`
   flex-direction: column;
   gap: 16px;
 
-  h3 {
-    font-size: 16px;
+  .titulo-filtro {
+    font-size: 14px;
     color: #555;
   }
 
   .lojas {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     margin-bottom: 16px;
 
     div {
@@ -36,5 +36,11 @@ export const Filtro = styled.div`
         }
       }
     }
+  }
+
+  .categorias {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
   }
 `

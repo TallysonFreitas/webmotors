@@ -34,10 +34,16 @@ const Busca = () => {
               <h2 className="buttons-menu--item active">Comprar motos</h2>
             </>
           )}
-          <a href="#" className="buttons-menu--item">
+          <a
+            href="https://www.webmotors.com.br/carros/estoque?lkid=2054"
+            className="buttons-menu--item"
+          >
             Quero vender
           </a>
-          <a href="#" className="buttons-menu--item">
+          <a
+            href="https://www.webmotors.com.br/financiamento?lkid=1021&inst=homesearchbox%3Awebmotors%3Aheader-deslogado%3A%3Afinanciamento"
+            className="buttons-menu--item"
+          >
             Quero financiar
           </a>
         </div>

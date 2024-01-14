@@ -9,12 +9,14 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
+import Carrossel from './containers/Carrossel'
 
 function App() {
   return (
     <>
       <EstiloGlobal />
       <Header />
+      <Carrossel />
       <Busca />
       <ContainerPadrao>
         <Filtros />

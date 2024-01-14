@@ -37,7 +37,7 @@ export const HeaderContainer = styled.header`
         left: 0;
         background-color: #fff;
         display: none;
-        z-index: 1;
+        z-index: 3;
         margin-top: 24px;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
       }

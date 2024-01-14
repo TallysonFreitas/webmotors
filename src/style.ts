@@ -13,7 +13,7 @@ body{
 }`
 
 export const ContainerPadrao = styled.div`
-  max-width: 1440px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 `

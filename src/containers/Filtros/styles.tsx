@@ -8,6 +8,7 @@ export const Filtro = styled.div`
   .titulo-filtro {
     font-size: 14px;
     color: #555;
+    margin-top: 16px;
   }
 
   .lojas {

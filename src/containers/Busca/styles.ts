@@ -1,15 +1,17 @@
 import styled from 'styled-components'
 
 export const BuscaContainer = styled.div`
+  position: relative;
   width: 80%;
   margin: 0 auto;
   padding: 16px 24px;
   background-color: #fff;
-  margin-top: 40px;
+  margin-top: -40px;
   border-radius: 8px;
   gap: 16px;
   display: flex;
   flex-direction: column;
+  z-index: 3;
 
   @media (max-width: 1440px) {
     width: 100%;

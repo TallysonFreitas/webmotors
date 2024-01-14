@@ -1,3 +1,4 @@
+import CarroBuscado from '../../components/CarroBuscado'
 import CarroItemRec from '../../components/CarroItemRec'
 import CategoriaItem from '../../components/CategoriaItem'
 import { Filtro } from './styles'
@@ -105,6 +106,21 @@ const Filtros = () => {
     },
     {
       imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19572912221.webp',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19572932516.webp',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19573023340.webp',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19573048231.webp',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19573118276.webp'
+      ],
+      nome: 'VOLKSWAGEN JETTA',
+      descricao: '2.0 350 TSI GASOLINA GLI DSG',
+      valor: 172900,
+      anoModelo: '2019/2019',
+      kmRodado: 30208,
+      localizacao: 'Jundiaí - SP'
+    },
+    {
+      imgs: [
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19112844850.jpg',
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19112928058.jpg',
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19170947822.jpg',
@@ -132,6 +148,39 @@ const Filtros = () => {
       anoModelo: '2018/2018',
       kmRodado: 62000,
       localizacao: 'Rio de Janeiro - RJ'
+    }
+  ]
+
+  const CarrosMaisBuscados = [
+    {
+      nome: 'CIVIC',
+      marca: 'HONDA',
+      img: 'https://www.webmotors.com.br/novo-portal/static/media/honda-civic.c62a732cc4675bee8407.webp'
+    },
+    {
+      nome: 'COROLLA',
+      marca: 'TOYOTA',
+      img: 'https://www.webmotors.com.br/novo-portal/static/media/toyota-corolla.d5026ea9e77ad2172d30.webp'
+    },
+    {
+      nome: 'FIT',
+      marca: 'HONDA',
+      img: 'https://www.webmotors.com.br/novo-portal/static/media/honda-fit.b67b4f34068ccfc358bb.webp'
+    },
+    {
+      nome: 'GOL',
+      marca: 'VOLKSWAGEN',
+      img: 'https://www.webmotors.com.br/novo-portal/static/media/volkswagen-gol.96691816dd1b605ed9e7.webp'
+    },
+    {
+      nome: 'GOLF',
+      marca: 'VOLKSWAGEN',
+      img: '	https://www.webmotors.com.br/novo-portal/static/media/volkswagen-golf.d952cb4852d975c19cdf.webp'
+    },
+    {
+      nome: 'JETTA',
+      marca: 'VOLKSWAGEN',
+      img: 'https://www.webmotors.com.br/novo-portal/static/media/volkswagen-jetta.a7d6032665dd922a9a36.webp'
     }
   ]
 
@@ -173,7 +222,7 @@ const Filtros = () => {
         </div>
       </div>
       <h3 className="titulo-filtro">Categorias</h3>
-      <div className="categorias">
+      <div className="container-scroll">
         {categoriasCarros.map((each) => (
           <CategoriaItem
             img={each.img}
@@ -183,8 +232,19 @@ const Filtros = () => {
           />
         ))}
       </div>
+      <h3 className="titulo-filtro">Carros mais buscados</h3>
+      <div className="container-scroll">
+        {CarrosMaisBuscados.map((each) => (
+          <CarroBuscado
+            marca={each.marca}
+            nome={each.nome}
+            img={each.img}
+            key={each.nome}
+          />
+        ))}
+      </div>
       <h3 className="titulo-filtro">Recomendados para você</h3>
-      <div className="carros-recomendados">
+      <div className="container-scroll">
         {carrosRecomendados.map((each) => (
           <CarroItemRec
             img={each.imgs}

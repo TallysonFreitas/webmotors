@@ -38,41 +38,6 @@ const Filtros = () => {
       nome: 'Carros de luxo',
       link: '#',
       img: 'https://catalogo.webmotors.com.br/imagens/prod/fotos-temas/CardDesktop/2a646b96-e989-4e26-854d-84f579bdf0f4_CardDesktop.jpg?s=fill&w=274&h=216&q=70'
-    },
-    {
-      nome: 'Hatches',
-      link: '#',
-      img: 'https://catalogo.webmotors.com.br/imagens/prod/fotos-temas/CardDesktop/980c1c63-9e76-490e-b460-af82933530ae_CardDesktop.jpg?s=fill&w=274&h=216&q=70'
-    },
-    {
-      nome: 'Picapes',
-      link: '#',
-      img: 'https://catalogo.webmotors.com.br/imagens/prod/fotos-temas/CardDesktop/8ad7e211-dca1-4ca2-8cee-0e19c1992418_CardDesktop.jpg?s=fill&w=274&h=216&q=70'
-    },
-    {
-      nome: 'Sedans',
-      link: '#',
-      img: 'https://catalogo.webmotors.com.br/imagens/prod/fotos-temas/CardDesktop/bc0e183f-bb89-42e7-8663-95b3be51d6d8_CardDesktop.jpg?s=fill&w=274&h=216&q=70'
-    },
-    {
-      nome: 'SUVs',
-      link: '#',
-      img: 'https://catalogo.webmotors.com.br/imagens/prod/fotos-temas/CardDesktop/e913354e-550e-41db-a790-82895af31a13_CardDesktop.jpg?s=fill&w=274&h=216&q=70'
-    },
-    {
-      nome: 'Carros elétricos',
-      link: '#',
-      img: 'https://catalogo.webmotors.com.br/imagens/prod/fotos-temas/CardDesktop/1a138102-5b09-40ea-9e96-81f088b795c0_CardDesktop.jpg?s=fill&w=274&h=216&q=70'
-    },
-    {
-      nome: 'Carros econômicos',
-      link: '#',
-      img: 'https://catalogo.webmotors.com.br/imagens/prod/fotos-temas/CardDesktop/2393ed64-e935-43ec-a4e7-eb688c4760ca_CardDesktop.jpg?s=fill&w=274&h=216&q=70'
-    },
-    {
-      nome: 'Carros de luxo',
-      link: '#',
-      img: 'https://catalogo.webmotors.com.br/imagens/prod/fotos-temas/CardDesktop/2a646b96-e989-4e26-854d-84f579bdf0f4_CardDesktop.jpg?s=fill&w=274&h=216&q=70'
     }
   ]
 
@@ -92,6 +57,21 @@ const Filtros = () => {
       anoModelo: '2014/2015',
       kmRodado: 40000,
       localizacao: 'Ribeirao Pires - SP'
+    },
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16180019216.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16180048920.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16180119237.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16175945718.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16175908231.jpg'
+      ],
+      nome: 'HONDA CIVIC',
+      descricao: '2.0 LXR 16V FLEX 4P AUTOMÁTICO',
+      valor: 138990,
+      anoModelo: '2021/2021',
+      kmRodado: 12000,
+      localizacao: 'Imperatriz - MA'
     },
     {
       imgs: [
@@ -152,51 +132,6 @@ const Filtros = () => {
       anoModelo: '2018/2018',
       kmRodado: 62000,
       localizacao: 'Rio de Janeiro - RJ'
-    },
-    {
-      imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
-      ],
-      nome: 'MITSUBISH LANCER',
-      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
-      valor: 71900,
-      anoModelo: '2015/2015',
-      kmRodado: 88800,
-      localizacao: 'Extrema - MG'
-    },
-    {
-      imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
-      ],
-      nome: 'MITSUBISH LANCER',
-      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
-      valor: 71900,
-      anoModelo: '2015/2015',
-      kmRodado: 88800,
-      localizacao: 'Extrema - MG'
-    },
-    {
-      imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
-      ],
-      nome: 'MITSUBISH LANCER',
-      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
-      valor: 71900,
-      anoModelo: '2015/2015',
-      kmRodado: 88800,
-      localizacao: 'Extrema - MG'
     }
   ]
 

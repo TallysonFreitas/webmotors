@@ -3,7 +3,7 @@ import { ImageCarrossel } from './style'
 
 const Carrossel = () => {
   return (
-    <Swiper className="" slidesPerView={1} navigation autoplay={true}>
+    <Swiper className="" slidesPerView={1} navigation autoplay loop>
       <SwiperSlide>
         <a href="https://www.webmotors.com.br/carros/estoque?lkid=2183">
           <ImageCarrossel

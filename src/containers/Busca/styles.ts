@@ -12,6 +12,7 @@ export const BuscaContainer = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 3;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 
   @media (max-width: 1440px) {
     width: 100%;

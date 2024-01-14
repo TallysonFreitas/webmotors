@@ -8,7 +8,7 @@ export const ContainerCarroItem = styled.div`
 
   .item-carrossel {
     width: 100%;
-    height: 200px;
+    height: 160px;
   }
 
   .card-info {

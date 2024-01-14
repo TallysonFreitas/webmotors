@@ -76,20 +76,129 @@ const Filtros = () => {
     }
   ]
 
-  const carroRecomendado = {
-    imgs: [
-      'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
-      'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
-      'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
-      'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
-      'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
-    ],
-    nome: 'MITSUBISH LANCER',
-    descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
-    valor: 71900,
-    anoModelo: '2015/2015',
-    kmRodado: 88800
-  }
+  const carrosRecomendados = [
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM21270881766.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM23481481698.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM21274610916.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM21290071231.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM23525499247.jpg'
+      ],
+      nome: 'MITSUBISH LANCER',
+      descricao:
+        '2.0 EVOLUTION X JOHN EASTON 4X4 16V TURBO INTERCOOLER GASOLINA 4P AUTOMÁTICO',
+      valor: 252000,
+      anoModelo: '2014/2015',
+      kmRodado: 40000,
+      localizacao: 'Ribeirao Pires - SP'
+    },
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+      ],
+      nome: 'MITSUBISH LANCER',
+      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
+      valor: 71900,
+      anoModelo: '2015/2015',
+      kmRodado: 88800,
+      localizacao: 'Extrema - MG'
+    },
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231205/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem16472737991.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231205/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem16473224079.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231205/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem16473391361.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+      ],
+      nome: 'MITSUBISH LANCER',
+      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
+      valor: 69990,
+      anoModelo: '2017/2018',
+      kmRodado: 103000,
+      localizacao: 'Sao Paulo - SP'
+    },
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19112844850.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19112928058.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19170947822.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+      ],
+      nome: 'MITSUBISH LANCER',
+      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
+      valor: 61698,
+      anoModelo: '2018/2019',
+      kmRodado: 69900,
+      localizacao: 'Osasco - SP'
+    },
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240112/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem14503791651.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240112/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem14483619521.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240112/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem14503999994.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240112/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem14483782478.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+      ],
+      nome: 'MITSUBISH LANCER',
+      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
+      valor: 69900,
+      anoModelo: '2018/2018',
+      kmRodado: 62000,
+      localizacao: 'Rio de Janeiro - RJ'
+    },
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+      ],
+      nome: 'MITSUBISH LANCER',
+      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
+      valor: 71900,
+      anoModelo: '2015/2015',
+      kmRodado: 88800,
+      localizacao: 'Extrema - MG'
+    },
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+      ],
+      nome: 'MITSUBISH LANCER',
+      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
+      valor: 71900,
+      anoModelo: '2015/2015',
+      kmRodado: 88800,
+      localizacao: 'Extrema - MG'
+    },
+    {
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
+        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+      ],
+      nome: 'MITSUBISH LANCER',
+      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
+      valor: 71900,
+      anoModelo: '2015/2015',
+      kmRodado: 88800,
+      localizacao: 'Extrema - MG'
+    }
+  ]
 
   return (
     <Filtro>
@@ -141,14 +250,18 @@ const Filtros = () => {
       </div>
       <h3 className="titulo-filtro">Recomendados para você</h3>
       <div className="carros-recomendados">
-        <CarroItemRec
-          img={carroRecomendado.imgs}
-          anoModelo={carroRecomendado.anoModelo}
-          descricao={carroRecomendado.descricao}
-          kmRodado={carroRecomendado.kmRodado}
-          nome={carroRecomendado.nome}
-          valor={carroRecomendado.valor}
-        />
+        {carrosRecomendados.map((each) => (
+          <CarroItemRec
+            img={each.imgs}
+            anoModelo={each.anoModelo}
+            descricao={each.descricao}
+            kmRodado={each.kmRodado}
+            nome={each.nome}
+            valor={each.valor}
+            localizacao={each.localizacao}
+            key={each.nome}
+          />
+        ))}
       </div>
       <h3 className="titulo-filtro">Notícias</h3>
       <div></div>

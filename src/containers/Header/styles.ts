@@ -12,9 +12,14 @@ export const HeaderContainer = styled.header`
   position: fixed;
   z-index: 10;
 
-  svg {
+  .logo {
     width: 145px;
     height: 28px;
+
+    svg {
+      width: 145px;
+      height: 28px;
+    }
   }
   .nav {
     display: flex;
@@ -85,12 +90,20 @@ export const HeaderContainer = styled.header`
         display: flex;
         font-weight: semi-bold;
         font-size: 12px;
+        align-items: center;
+        gap: 2px;
+
         svg {
           height: 24px;
           width: 24px;
           display: flex;
           justify-content: center;
           align-items: center;
+
+          path {
+            height: 24px;
+            width: 24px;
+          }
         }
       }
     }

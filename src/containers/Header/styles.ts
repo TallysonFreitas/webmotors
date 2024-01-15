@@ -9,6 +9,8 @@ export const HeaderContainer = styled.header`
   align-items: center;
   padding: 0px 40px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 10;
 
   svg {
     width: 145px;

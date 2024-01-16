@@ -10,6 +10,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import Carrossel from './containers/Carrossel'
+import Footer from './containers/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ContainerPadrao>
         <Filtros />
       </ContainerPadrao>
+      <Footer />
     </>
   )
 }

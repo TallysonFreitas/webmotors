@@ -1,5 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { ContainerCarroItem } from './styles'
+import { CarrosselItem, ContainerCarroItem } from './styles'
+
+export type carrosselImgType = { img: string }
 
 const CarroItemRec = ({
   img,
@@ -23,7 +25,7 @@ const CarroItemRec = ({
       <Swiper slidesPerView={1} pagination={{ clickable: true }} navigation>
         {img.map((each) => (
           <SwiperSlide key={''}>
-            <img className="item-carrossel" src={each} />
+            <CarrosselItem img={each}></CarrosselItem>
           </SwiperSlide>
         ))}
       </Swiper>

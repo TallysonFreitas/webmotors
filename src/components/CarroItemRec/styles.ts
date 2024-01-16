@@ -1,15 +1,11 @@
 import styled from 'styled-components'
+import { carrosselImgType } from '.'
 
 export const ContainerCarroItem = styled.div`
   min-width: 216px;
   border-radius: 8px;
   background-color: #fff;
   overflow: hidden;
-
-  .item-carrossel {
-    width: 100%;
-    height: 178px;
-  }
 
   .card-info {
     height: 160px;
@@ -63,4 +59,12 @@ export const ContainerCarroItem = styled.div`
       }
     }
   }
+`
+
+export const CarrosselItem = styled.div<carrosselImgType>`
+  width: 100%;
+  height: 178px;
+  background-image: url(${(props) => props.img});
+  background-size: cover;
+  background-position: center;
 `

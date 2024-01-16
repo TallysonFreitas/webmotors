@@ -1,6 +1,7 @@
 import CarroBuscado from '../../components/CarroBuscado'
 import CarroItemRec from '../../components/CarroItemRec'
 import CategoriaItem from '../../components/CategoriaItem'
+import NoticiaItem from '../../components/NoticiaItem'
 import { Filtro } from './styles'
 
 const Filtros = () => {
@@ -184,6 +185,45 @@ const Filtros = () => {
     }
   ]
 
+  const NoticiasDeCarro = [
+    {
+      autor: 'Marcelo Monegato',
+      descricao: 'Civic fecha 2023 com números discretos de vendas',
+      img: 'https://www.webmotors.com.br/wp-content/uploads/2023/03/03155912/Honda-Civic-Hybrid-9407-730x545.webp',
+      id: 1
+    },
+    {
+      autor: 'Marcelo Monegato',
+      descricao: 'BYD entra no top 10 das mais vendidas em dezembro',
+      img: 'https://www.webmotors.com.br/wp-content/uploads/2023/10/06182134/BYD-Dolphin-Destaque-3-730x545.webp',
+      id: 2
+    },
+    {
+      autor: 'Marcelo Monegato',
+      descricao: 'T-Cross e cia: os 20 SUVs mais vendidos em 2023',
+      img: 'https://www.webmotors.com.br/wp-content/uploads/2023/09/18151633/Volkswagen-T-Cross-Comfortline-730x545.webp',
+      id: 3
+    },
+    {
+      autor: 'Marcelo Monegato',
+      descricao: 'Onix é o carro mais vendido do Brasil no varejo',
+      img: 'https://www.webmotors.com.br/wp-content/uploads/2023/12/07135753/GM-ONIX-PREMIER-TURBO-1185-730x545.webp',
+      id: 4
+    },
+    {
+      autor: 'Marcelo Monegato',
+      descricao: 'BYD Seal surpreende nas vendas e atropela figurões',
+      img: 'https://www.webmotors.com.br/wp-content/uploads/2023/08/30232032/BYD-Seal-1-730x545.webp',
+      id: 5
+    },
+    {
+      autor: 'Marcelo Monegato',
+      descricao: 'Toyota prepara frota eletrificada para Paris 2024',
+      img: 'https://www.webmotors.com.br/wp-content/uploads/2023/12/11123327/toyota039selectrifiedpassengerfleetforparis2024-730x545.webp',
+      id: 6
+    }
+  ]
+
   return (
     <Filtro>
       <h3 className="titulo-filtro">Lojas Oficiais</h3>
@@ -259,7 +299,16 @@ const Filtros = () => {
         ))}
       </div>
       <h3 className="titulo-filtro">Notícias</h3>
-      <div></div>
+      <div className="container-scroll">
+        {NoticiasDeCarro.map((each) => (
+          <NoticiaItem
+            autor={each.autor}
+            descricao={each.descricao}
+            img={each.img}
+            key={each.id}
+          />
+        ))}
+      </div>
     </Filtro>
   )
 }

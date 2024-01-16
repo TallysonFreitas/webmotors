@@ -10,18 +10,27 @@ export const ContainerNoticiaItem = styled.div`
 
   .infos {
     padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    h5 {
-      color: #666;
-      font-size: 10px;
+    height: 134px;
 
-      span {
-        color: #f44;
+    .textos {
+      h5 {
+        color: #666;
+        font-size: 10px;
+        margin-bottom: 4px;
+
+        span {
+          color: #f44;
+        }
       }
-    }
 
-    p {
-      font-size: 12px;
+      p {
+        font-size: 12px;
+        font-weight: 500;
+      }
     }
 
     .autor {

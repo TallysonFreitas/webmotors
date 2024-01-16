@@ -5,12 +5,10 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
-import Home from './pages/Home'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider } from 'react-router-dom'
+import rotas from './pages/Rotas'
 
 function App() {
-  const rotas = createBrowserRouter([{ path: '/', Component: Home }])
-
   return <RouterProvider router={rotas} />
 }
 

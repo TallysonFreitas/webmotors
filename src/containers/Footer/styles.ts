@@ -53,3 +53,19 @@ export const BoxAtendimento = styled.a`
     margin-left: 4px;
   }
 `
+
+export const SantanderIcon = styled(BoxAtendimento)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  svg {
+    height: 22px;
+    margin-top: -6px;
+  }
+`
+
+export const CopyrightText = styled(BoxAtendimento)`
+  background-color: #2e2d37;
+`

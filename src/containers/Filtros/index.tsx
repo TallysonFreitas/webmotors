@@ -227,7 +227,7 @@ const Filtros = () => {
   return (
     <Filtro>
       <h3 className="titulo-filtro">Lojas Oficiais</h3>
-      <div className="lojas">
+      <div className="lojas container-scroll">
         <div>
           <a href="https://www.webmotors.com.br/ofertas/feiroes/lojaoficialgwm/carros/estoque/gwm&?lkid=2139&tipoveiculo=carros&marca1=GWM&feirao=Loja%20Oficial%20GWM">
             <img

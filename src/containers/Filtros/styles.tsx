@@ -13,12 +13,10 @@ export const Filtro = styled.div`
   }
 
   .lojas {
-    display: flex;
-    gap: 16px;
     margin-bottom: 16px;
 
     div {
-      width: 160px;
+      min-width: 160px;
       height: 160px;
       border-radius: 50%;
       overflow: hidden;

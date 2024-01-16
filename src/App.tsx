@@ -1,7 +1,3 @@
-import Busca from './containers/Busca'
-import Filtros from './containers/Filtros'
-import Header from './containers/Header'
-import { ContainerPadrao, EstiloGlobal } from './style'
 import { register } from 'swiper/element/bundle'
 
 register()
@@ -9,22 +5,13 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
-import Carrossel from './containers/Carrossel'
-import Footer from './containers/Footer'
+import Home from './pages/Home'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 function App() {
-  return (
-    <>
-      <EstiloGlobal />
-      <Header />
-      <Carrossel />
-      <Busca />
-      <ContainerPadrao>
-        <Filtros />
-      </ContainerPadrao>
-      <Footer />
-    </>
-  )
+  const rotas = createBrowserRouter([{ path: '/', Component: Home }])
+
+  return <RouterProvider router={rotas} />
 }
 
 export default App

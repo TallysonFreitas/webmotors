@@ -4,6 +4,7 @@ export const Filtro = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-bottom: 40px;
 
   .titulo-filtro {
     font-size: 14px;

@@ -106,72 +106,51 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h4>Comprar</h4>
+        <h4>Ajuda</h4>
         <ul>
           <li>
-            <a href="#">Carros usados</a>
+            <a href="#">Para você</a>
           </li>
           <li>
-            <a href="#">Carros novos</a>
+            <a href="#">Para a sua loja</a>
           </li>
           <li>
-            <a href="#">Motos usadas</a>
+            <a href="#">Segurança</a>
           </li>
           <li>
-            <a href="#">Motos novas</a>
+            <a href="#">Sobre nós</a>
           </li>
           <li>
-            <a href="#">Vistoriado</a>
-          </li>
-        </ul>
-        <h4>Vender</h4>
-        <ul>
-          <li>
-            <a href="#">Vender carro</a>
+            <a href="#">Trabalhe com a gente</a>
           </li>
           <li>
-            <a href="#">Vender moto</a>
-          </li>
-          <li>
-            <a href="#">Gerenciar meu anúncio</a>
-          </li>
-          <li>
-            <a href="#">Plataforma revendedores</a>
+            <a href="#">Mapa do site</a>
           </li>
         </ul>
       </div>
       <div>
-        <h4>Comprar</h4>
+        <h4>Institucional</h4>
         <ul>
           <li>
-            <a href="#">Carros usados</a>
+            <a href="#">Canal de ética</a>
           </li>
           <li>
-            <a href="#">Carros novos</a>
+            <a href="#">Código de conduta Webmotors</a>
           </li>
           <li>
-            <a href="#">Motos usadas</a>
+            <a href="#">Código de conduta Fornecedores</a>
           </li>
           <li>
-            <a href="#">Motos novas</a>
+            <a href="#">Código de defesa do Consumidor</a>
           </li>
           <li>
-            <a href="#">Vistoriado</a>
-          </li>
-        </ul>
-        <h4>Vender</h4>
-        <ul>
-          <li>
-            <a href="#">Vender carro</a>
+            <a href="#">Gerenciamento de cookies</a>
           </li>
           <li>
-            <a href="#">Vender moto</a>
+            <a href="#">Termos de Uso e Política de privacidade</a>
           </li>
           <li>
-            <a href="#">Gerenciar meu anúncio</a>
-          </li>
-          <li>
-            <a href="#">Plataforma revendedores</a>
+            <a href="#">LGPD</a>
           </li>
         </ul>
       </div>

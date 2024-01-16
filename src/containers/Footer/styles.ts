@@ -16,11 +16,17 @@ export const ContainerFooter = styled.footer`
     }
     ul {
       margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
       li {
+        max-width: 180px;
         a {
           text-decoration: none;
+          font-weight: 300;
           color: #fff;
           font-size: 12px;
+          line-height: 0px;
         }
         a:hover {
           text-decoration: underline;

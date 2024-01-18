@@ -17,6 +17,7 @@ export const Filtro = styled.div`
 
     div {
       min-width: 160px;
+      width: 160px;
       height: 160px;
       border-radius: 50%;
       overflow: hidden;
@@ -27,7 +28,6 @@ export const Filtro = styled.div`
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 
       a {
-        padding: 16px;
         height: 100%;
         width: 100%;
 

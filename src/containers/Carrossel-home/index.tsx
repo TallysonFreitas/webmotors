@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { ImageCarrossel } from './style'
 
-const Carrossel = () => {
+const CarrosselHome = () => {
   return (
     <Swiper className="" slidesPerView={1} navigation autoplay loop>
       <SwiperSlide>
@@ -40,4 +40,4 @@ const Carrossel = () => {
   )
 }
 
-export default Carrossel
+export default CarrosselHome

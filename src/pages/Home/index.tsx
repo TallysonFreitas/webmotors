@@ -1,5 +1,5 @@
 import Busca from '../../containers/Busca'
-import Carrossel from '../../containers/Carrossel'
+import CarrosselHome from '../../containers/Carrossel-home'
 import Filtros from '../../containers/Filtros'
 import Footer from '../../containers/Footer'
 import Header from '../../containers/Header'
@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <EstiloGlobal />
       <Header />
-      <Carrossel />
+      <CarrosselHome />
       <Busca />
       <ContainerPadrao>
         <Filtros />

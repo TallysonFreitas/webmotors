@@ -7,9 +7,16 @@ import {
 const InfoCarro = () => {
   return (
     <ContainerInfoCarro>
-      <InformacoesCarro></InformacoesCarro>
+      <InformacoesCarro>
+        <div className="titulo">
+          <h1>
+            FORD <span>ECOSPORT</span>
+            <span>2.0 FREESTYLE PLUS 16V FLEX 4P POWERSHIFT</span>
+          </h1>
+        </div>
+      </InformacoesCarro>
       <ContainerFormInteresse>
-        <h1>ola mundo</h1>
+        <h1>R$ 51.900</h1>
       </ContainerFormInteresse>
     </ContainerInfoCarro>
   )

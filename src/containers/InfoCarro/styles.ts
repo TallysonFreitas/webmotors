@@ -19,6 +19,21 @@ export const InformacoesCarro = styled.div`
   z-index: 1;
   border-radius: 8px;
   box-shadow: 0 2px 9px 0 rgba(158, 184, 209, 0.41);
+
+  .titulo {
+    padding: 32px;
+    border-bottom: 1px solid #dedede;
+    span:first-child {
+      color: #f3123c;
+    }
+    span:last-child {
+      font-size: 14px;
+      display: block;
+      font-weight: 400;
+      color: #6e6e6e;
+      letter-spacing: 0.07px;
+    }
+  }
 `
 
 export const ContainerFormInteresse = styled.div`

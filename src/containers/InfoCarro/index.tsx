@@ -1,4 +1,5 @@
 import {
+  CapTitulo,
   ContainerFormInteresse,
   ContainerInfoCarro,
   InformacoesCarro
@@ -8,7 +9,7 @@ const InfoCarro = () => {
   return (
     <ContainerInfoCarro>
       <InformacoesCarro>
-        <div className="titulo">
+        <CapTitulo>
           <h1>
             FORD <span>ECOSPORT</span>
             <span>2.0 FREESTYLE PLUS 16V FLEX 4P POWERSHIFT</span>
@@ -51,7 +52,7 @@ const InfoCarro = () => {
               <strong>Sim</strong>
             </li>
           </ul>
-        </div>
+        </CapTitulo>
       </InformacoesCarro>
       <ContainerFormInteresse>
         <h1>R$ 51.900</h1>

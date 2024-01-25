@@ -136,12 +136,13 @@ export const CondicoesVeiculo = styled.div`
 export const StatusPlus = styled.div`
   max-width: 240px;
   width: 100%;
-  overflow-y: hidden;
-  max-height: 64px;
-  border-radius: 8px;
 
+  max-height: 48px;
+  border-radius: 8px;
+  background-color: #fff;
   transition:
-    max-height 0.7s ease-in 0s,
+    max-height 0.7s ease 0s,
+    overflow-y 0.7s ease-in 0s,
     opacity 0.7s ease-in 0s,
     box-shadow 0.7s ease-in 0s;
 
@@ -156,9 +157,10 @@ export const StatusPlus = styled.div`
 
   .dropdown-info {
     display: block;
-    height: 0px;
+    padding: 16px;
+    opacity: 0;
     transition:
-      padding 0.7s ease-in 0s,
+      opacity 0.3s ease-in 0s,
       height 0.7s ease-in 0s;
 
     p {
@@ -167,6 +169,7 @@ export const StatusPlus = styled.div`
       font-weight: normal;
       display: inline;
       font-size: 14px;
+      max-width: 60%;
 
       span {
         font-weight: 600;
@@ -176,12 +179,12 @@ export const StatusPlus = styled.div`
 
   &:hover {
     max-height: 240px;
+    height: 240px;
     box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.3);
   }
 
   &:hover .dropdown-info {
-    padding: 16px;
-    height: 100%;
+    opacity: 1;
   }
 `
 

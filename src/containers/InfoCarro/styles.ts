@@ -25,11 +25,11 @@ export const ContainerEsquerda = styled.div`
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 `
 
 export const ItemsVeiculo = styled.div`
-  padding: 30px 56px;
+  padding: 32px 56px 48px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -213,7 +213,7 @@ export const StatusPlus = styled.div`
 
   &:hover .dropdown-info {
     opacity: 1;
-    max-height: 100px;
+    max-height: 100pxc;
     padding: 16px;
   }
 `
@@ -226,4 +226,87 @@ export const TextoInfo = styled.p`
 
 export const SobreVeiculo = styled.div`
   padding: 32px 56px;
+`
+
+export const SobreALoja = styled.div`
+  padding: 32px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .container-vendedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+
+    .loja-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .loja {
+      boder-right: 2px solid #666677;
+      display: flex;
+      gap: 24px;
+
+      &__info {
+        strong {
+          font-size: 20px;
+          font-weight: 500;
+        }
+
+        &--localizacao {
+          display: flex;
+          gap: 8px;
+          align-items: center;
+
+          img {
+            width: 16px;
+            height: 16px;
+          }
+
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .conquistas {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      &__lista {
+        display: flex;
+        gap: 8px;
+
+        &--item {
+          max-width: 100px;
+          width: 100%;
+
+          img {
+            margin: 0 auto;
+            display: block;
+            width: 32px;
+            height: 32px;
+          }
+          p {
+            font-size: 11px;
+            text-align: center;
+            color: #696977;
+          }
+        }
+      }
+    }
+  }
+`
+
+export const LojaIcon = styled.div<BackgroundImage>`
+  width: 64px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(${(props) => props.img}) center center no-repeat
+    rgb(236, 237, 242);
+  border-radius: 8px;
 `

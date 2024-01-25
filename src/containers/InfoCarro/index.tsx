@@ -1,3 +1,4 @@
+import TableHorario from '../../components/TableHorario'
 import {
   CapTitulo,
   CondicoesVeiculo,
@@ -7,6 +8,8 @@ import {
   IconeInfo,
   InformacoesCarro,
   ItemsVeiculo,
+  LojaIcon,
+  SobreALoja,
   SobreVeiculo,
   StatusPlus,
   TextoForte,
@@ -109,8 +112,8 @@ const InfoCarro = () => {
             <div className="promo-state">
               <StatusPlus>
                 <div className="status-header">
-                  <IconeInfo img="https://www.webmotors.com.br/assets/img/stamps/super-preco.svg" />
-                  <TextoForte>Super Preço</TextoForte>
+                  <IconeInfo img="https://www.webmotors.com.br/assets/img/stamps/car-delivery.svg" />
+                  <TextoForte>CarDelivery</TextoForte>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path
                       fillRule="evenodd"
@@ -122,15 +125,16 @@ const InfoCarro = () => {
                 </div>
                 <div className="dropdown-info">
                   <p>
-                    Anúncio com preço <strong>abaixo da tabela FIPE</strong>.
-                    Aproveite e faça um ótimo negócio!
+                    <strong>Compre online:</strong> a loja cuida da
+                    documentação, você faz o test-drive e recebe o carro em
+                    casa!
                   </p>
                 </div>
               </StatusPlus>
               <StatusPlus>
                 <div className="status-header">
-                  <IconeInfo img="https://www.webmotors.com.br/assets/img/stamps/super-preco.svg" />
-                  <TextoForte>Super Preço</TextoForte>
+                  <IconeInfo img="https://www.webmotors.com.br/assets/img/stamps/troca-com-troco.svg" />
+                  <TextoForte>Troca+Troco</TextoForte>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path
                       fillRule="evenodd"
@@ -142,8 +146,8 @@ const InfoCarro = () => {
                 </div>
                 <div className="dropdown-info">
                   <p>
-                    Anúncio com preço <strong>abaixo da tabela FIPE</strong>.
-                    Aproveite e faça um ótimo negócio!
+                    Troque de carro e saia com a diferença em dinheiro para usar
+                    como quiser!
                   </p>
                 </div>
               </StatusPlus>
@@ -194,6 +198,61 @@ const InfoCarro = () => {
               ))}
             </ul>
           </ItemsVeiculo>
+        </InformacoesCarro>
+        <InformacoesCarro>
+          <SobreALoja>
+            <TituloSecundario>Sobre o vendedor</TituloSecundario>
+            <div className="container-vendedor">
+              <div className="loja-container">
+                <div className="loja">
+                  <LojaIcon img="https://www.webmotors.com.br/assets/img/SellerArea/default-seller-logo.svg"></LojaIcon>
+                  <div className="loja__info">
+                    <TextoForte>Autop</TextoForte>
+                    <div className="loja__info--localizacao">
+                      <img
+                        src="https://www.webmotors.com.br/assets/img/icon/icon-location.svg"
+                        alt=""
+                      />
+                      <span>Belo Horizonte, MG</span>
+                    </div>
+                  </div>
+                </div>
+                <TableHorario />
+              </div>
+              <div className="conquistas">
+                <TextoForte>Conquistas</TextoForte>
+                <div className="conquistas__lista">
+                  <div className="conquistas__lista--item">
+                    <img
+                      src="https://www.webmotors.com.br/assets/img/SellerArea/existence-time.png"
+                      alt=""
+                    />
+                    <p>
+                      Desde <strong>10/2007</strong> na Webmotors
+                    </p>
+                  </div>
+                  <div className="conquistas__lista--item">
+                    <img
+                      src="https://www.webmotors.com.br/assets/img/SellerArea/number-ads.png"
+                      alt=""
+                    />
+                    <p>
+                      Anunciou <strong>6947</strong> vezes na Webmotors
+                    </p>
+                  </div>
+                  <div className="conquistas__lista--item">
+                    <img
+                      src="https://www.webmotors.com.br/assets/img/SellerArea/response-time.png"
+                      alt=""
+                    />
+                    <p>
+                      Responde em até <strong>19</strong> horas
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SobreALoja>
         </InformacoesCarro>
       </ContainerEsquerda>
 

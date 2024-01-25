@@ -156,9 +156,10 @@ export const StatusPlus = styled.div`
   }
 
   .dropdown-info {
-    padding: 16px;
+    padding: 0px 16px;
     opacity: 0;
     max-height: 0px;
+    overflow: hidden;
     transition:
       opacity 0.1s ease-in 0s,
       max-height 0.1s ease-in 0s;
@@ -186,6 +187,7 @@ export const StatusPlus = styled.div`
   &:hover .dropdown-info {
     opacity: 1;
     max-height: 100px;
+    padding: 16px;
   }
 `
 

@@ -17,9 +17,32 @@ export const ContainerInfoCarro = styled.div`
 
 export const InformacoesCarro = styled.div`
   background-color: #ffffff;
-  z-index: 1;
   border-radius: 8px;
   box-shadow: 0 2px 9px 0 rgba(158, 184, 209, 0.41);
+`
+
+export const ContainerEsquerda = styled.div`
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+`
+
+export const ItemsVeiculo = styled.div`
+  padding: 30px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .lista-itens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px 32px;
+
+    li {
+      font-size: 14px;
+    }
+  }
 `
 
 export const ContainerFormInteresse = styled.div`

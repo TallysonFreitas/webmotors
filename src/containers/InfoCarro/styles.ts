@@ -17,7 +17,6 @@ export const ContainerInfoCarro = styled.div`
 
 export const InformacoesCarro = styled.div`
   background-color: #ffffff;
-  height: 1000px;
   z-index: 1;
   border-radius: 8px;
   box-shadow: 0 2px 9px 0 rgba(158, 184, 209, 0.41);
@@ -95,6 +94,11 @@ export const CondicoesVeiculo = styled.div`
   overflow-y: visible;
   gap: 8px;
   border-bottom: 1px solid #dedede;
+
+  .promo-state {
+    display: flex;
+    gap: 16px;
+  }
 
   .videochamada {
     display: flex;
@@ -180,7 +184,7 @@ export const StatusPlus = styled.div`
 
   &:hover {
     max-height: 240px;
-    height: 240px;
+    height: auto;
     box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.3);
   }
 

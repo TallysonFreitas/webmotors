@@ -5,6 +5,7 @@ import {
   ContainerInfoCarro,
   IconeInfo,
   InformacoesCarro,
+  SobreVeiculo,
   StatusPlus,
   TextoForte,
   TextoInfo,
@@ -94,6 +95,19 @@ const InfoCarro = () => {
             </div>
           </StatusPlus>
         </CondicoesVeiculo>
+        <SobreVeiculo>
+          <TituloSecundario>Sobre este carro</TituloSecundario>
+          <p>
+            Se você está buscando um novo carro, não se arrisque e compre na
+            Localiza Seminovos: carros com 360 itens verificados, garantia e
+            procedência. Aqui você encontra a maior variedade de modelos do
+            mercado, condições únicas de financiamento, entrada facilitada em
+            até 10 vezes sem juros, carros revisados e com garantia de
+            quilometragem real. Viabilizamos a troca do seu carro usado e
+            entregamos seu novo carro na segurança de sua casa! Agende já seu
+            atendimento.
+          </p>
+        </SobreVeiculo>
       </InformacoesCarro>
       <ContainerFormInteresse>
         <h1>R$ 51.900</h1>

@@ -91,7 +91,7 @@ export const CondicoesVeiculo = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  max-height: 300px;
+  max-height: 240px;
   overflow-y: visible;
   gap: 8px;
   border-bottom: 1px solid #dedede;
@@ -136,13 +136,13 @@ export const CondicoesVeiculo = styled.div`
 export const StatusPlus = styled.div`
   max-width: 240px;
   width: 100%;
-
+  z-index: 1;
   max-height: 48px;
+  height: 100%;
   border-radius: 8px;
   background-color: #fff;
   transition:
     max-height 0.7s ease 0s,
-    overflow-y 0.7s ease-in 0s,
     opacity 0.7s ease-in 0s,
     box-shadow 0.7s ease-in 0s;
 
@@ -156,12 +156,12 @@ export const StatusPlus = styled.div`
   }
 
   .dropdown-info {
-    display: block;
     padding: 16px;
     opacity: 0;
+    max-height: 0px;
     transition:
-      opacity 0.3s ease-in 0s,
-      height 0.7s ease-in 0s;
+      opacity 0.1s ease-in 0s,
+      max-height 0.1s ease-in 0s;
 
     p {
       color: rgb(45, 45, 55);
@@ -185,6 +185,7 @@ export const StatusPlus = styled.div`
 
   &:hover .dropdown-info {
     opacity: 1;
+    max-height: 100px;
   }
 `
 
@@ -192,4 +193,8 @@ export const TextoInfo = styled.p`
   font-size: 16px;
   color: #2e2d37;
   line-height: 24px;
+`
+
+export const SobreVeiculo = styled.div`
+  padding: 32px 56px;
 `

@@ -53,7 +53,32 @@ export const ContainerFormInteresse = styled.div`
   position: sticky;
   top: 131px;
   box-shadow: 0 2px 9px 0 rgba(158, 184, 209, 0.41);
-  padding-top: 80px;
+  padding: 32px 32px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  .container-valor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    strong {
+      font-size: 40px;
+      font-weight: 500;
+      letter-spacing: 0.04px;
+      color: #2e2d37;
+    }
+    button {
+      background-color: #f3123c;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
 `
 
 export const TituloSecundario = styled.h2`

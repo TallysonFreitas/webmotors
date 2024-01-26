@@ -1,3 +1,4 @@
+import InputPersonal from '../../components/InputPersonal'
 import TableHorario from '../../components/TableHorario'
 import {
   CapTitulo,
@@ -257,7 +258,14 @@ const InfoCarro = () => {
       </ContainerEsquerda>
 
       <ContainerFormInteresse>
-        <h1>R$ 51.900</h1>
+        <div className="container-valor">
+          <strong>R$ 199.900</strong>
+          <button>Ver parcelas</button>
+        </div>
+        <TituloSecundario>Envie uma mensagem ao vendedor</TituloSecundario>
+        <InputPersonal type="text" placeholder="Nome*" />
+        <InputPersonal type="email" placeholder="E-mail*" />
+        <InputPersonal type="tel" placeholder="Telefone*" />
       </ContainerFormInteresse>
     </ContainerInfoCarro>
   )

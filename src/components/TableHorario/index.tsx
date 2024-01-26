@@ -11,32 +11,37 @@ const TableHorario = () => {
         }}
       >
         Loja aberta agora - Fecha às 18h30
+        {tabelaEstaAtiva ? (
+          <i className="arrow-up"></i>
+        ) : (
+          <i className="arrow-up arrow-down"></i>
+        )}
       </p>
       <table>
         <tbody>
           <tr>
-            <td>Segunda:</td>
-            <td>08:30 - 18:30</td>
+            <td className="td-esquerda">Segunda:</td>
+            <td className="td-direita">08:30 - 18:30</td>
           </tr>
           <tr>
-            <td>Terça:</td>
-            <td>08:30 - 18:30</td>
+            <td className="td-esquerda">Terça:</td>
+            <td className="td-direita">08:30 - 18:30</td>
           </tr>
           <tr>
-            <td>Quarta:</td>
-            <td>08:30 - 18:30</td>
+            <td className="td-esquerda">Quarta:</td>
+            <td className="td-direita">08:30 - 18:30</td>
           </tr>
           <tr>
-            <td>Quinta:</td>
-            <td>08:30 - 18:30</td>
+            <td className="td-esquerda">Quinta:</td>
+            <td className="td-direita">08:30 - 18:30</td>
           </tr>
           <tr>
-            <td>Sexta:</td>
-            <td>08:30 - 18:30</td>
+            <td className="td-esquerda">Sexta:</td>
+            <td className="td-direita">08:30 - 18:30</td>
           </tr>
           <tr>
-            <td>Sábado:</td>
-            <td>09:00 - 13:00</td>
+            <td className="td-esquerda">Sábado:</td>
+            <td className="td-direita">09:00 - 13:00</td>
           </tr>
         </tbody>
       </table>

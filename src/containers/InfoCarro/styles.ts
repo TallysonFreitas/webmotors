@@ -213,7 +213,7 @@ export const StatusPlus = styled.div`
 
   &:hover .dropdown-info {
     opacity: 1;
-    max-height: 100pxc;
+    max-height: 100px;
     padding: 16px;
   }
 `
@@ -242,6 +242,7 @@ export const SobreALoja = styled.div`
     .loja-container {
       display: flex;
       flex-direction: column;
+      gap: 16px;
     }
 
     .loja {

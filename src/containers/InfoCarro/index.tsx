@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import InputPersonal from '../../components/InputPersonal'
 import TableHorario from '../../components/TableHorario'
 import {
@@ -45,6 +46,26 @@ const InfoCarro = () => {
     'Tração 4x4',
     'Direção hidráulica'
   ]
+
+  const [user, setUser] = useState({
+    nome: '',
+    email: '',
+    telefone: 0,
+    mensagem: 'Olá, tenho interesse no veículo. Por favor entre em contato.',
+    whatsapp: true
+  })
+
+  function handleChangeName(e: string) {
+    setUser({ ...user, nome: e })
+  }
+
+  function handleChangeEmail(e: string) {
+    setUser({ ...user, email: e })
+  }
+
+  function handleChangeTelefone(e: number) {
+    setUser({ ...user, telefone: e })
+  }
 
   return (
     <ContainerInfoCarro>
@@ -263,9 +284,24 @@ const InfoCarro = () => {
           <button>Ver parcelas</button>
         </div>
         <TituloSecundario>Envie uma mensagem ao vendedor</TituloSecundario>
-        <InputPersonal type="text" placeholder="Nome*" />
-        <InputPersonal type="email" placeholder="E-mail*" />
-        <InputPersonal type="tel" placeholder="Telefone*" />
+        <InputPersonal
+          muda={handleChangeName}
+          valor={user.nome}
+          type="text"
+          placeholder="Nome*"
+        />
+        <InputPersonal
+          muda={handleChangeEmail}
+          valor={user.email}
+          type="email"
+          placeholder="E-mail*"
+        />
+        <InputPersonal
+          muda={handleChangeTelefone}
+          valor={user.telefone}
+          type="number"
+          placeholder="Telefone*"
+        />
       </ContainerFormInteresse>
     </ContainerInfoCarro>
   )

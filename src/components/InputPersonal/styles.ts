@@ -45,6 +45,7 @@ export const ContainerInput = styled.div`
     color: #b6aeba;
     border-radius: 8px;
     padding: 2px;
+    pointer-events: none;
 
     .valid-icon {
       display: none;

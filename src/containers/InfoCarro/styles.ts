@@ -56,10 +56,11 @@ export const ContainerFormInteresse = styled.div`
   padding: 32px 32px 20px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
 
   .container-valor {
     display: flex;
+    margin-bottom: -20px;
     align-items: center;
     justify-content: space-between;
     strong {

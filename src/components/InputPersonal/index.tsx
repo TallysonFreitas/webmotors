@@ -3,11 +3,13 @@ import { ContainerInput } from './styles'
 const InputPersonal = ({
   type,
   placeholder,
-  valor
+  valor,
+  muda
 }: {
   type: string
   placeholder: string
-  valor?: string
+  valor?: string | number
+  muda: any
 }) => {
   return (
     <ContainerInput>
@@ -17,6 +19,9 @@ const InputPersonal = ({
         className="class-input"
         minLength={3}
         required={true}
+        onChange={(e) => {
+          muda(e.target.value)
+        }}
       ></input>
       <label className="class-label">
         {placeholder}

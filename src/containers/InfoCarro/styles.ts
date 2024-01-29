@@ -337,3 +337,54 @@ export const LojaIcon = styled.div<BackgroundImage>`
     rgb(236, 237, 242);
   border-radius: 8px;
 `
+
+export const PrecosVeiculo = styled.div`
+  background-color: #2e2d37;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 32px 56px;
+  border-radius: 8px;
+
+  .valores {
+    display: flex;
+    gap: 40px;
+
+    div {
+      width: 32%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .valores--titulo {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: normal;
+      }
+
+      img {
+        height: 24px;
+      }
+      h4 {
+        font-weight: 400;
+        font-size: 11px;
+      }
+      strong {
+        color: #fff;
+        font-size: 28px;
+        letter-spacing: 0.14px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+`

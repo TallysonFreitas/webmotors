@@ -14,6 +14,7 @@ const InputPersonal = ({
   return (
     <ContainerInput>
       <input
+        min={3}
         type={type}
         value={valor}
         className="class-input"

@@ -11,6 +11,7 @@ import {
   InformacoesCarro,
   ItemsVeiculo,
   LojaIcon,
+  PrecosVeiculo,
   SobreALoja,
   SobreVeiculo,
   StatusPlus,
@@ -102,7 +103,7 @@ const InfoCarro = () => {
                 <TextoForte>Gasolina e álcool</TextoForte>
               </li>
               <li>
-                <TituloSecundario>FFinal de placa</TituloSecundario>
+                <TituloSecundario>Final de placa</TituloSecundario>
                 <TextoForte>8</TextoForte>
               </li>
               <li>
@@ -275,6 +276,36 @@ const InfoCarro = () => {
               </div>
             </div>
           </SobreALoja>
+        </InformacoesCarro>
+        <InformacoesCarro>
+          <PrecosVeiculo>
+            <TituloSecundario>Compare os precos</TituloSecundario>
+            <div className="valores">
+              <div>
+                <h4>Valor anunciado</h4>
+                <strong>R$ 127.990</strong>
+              </div>
+              <div>
+                <img
+                  src="https://www.webmotors.com.br/assets/img/icon/brand-webmotors-color.svg?t=2493"
+                  alt=""
+                />
+                <strong>R$ 152.678</strong>
+                <h4>
+                  Valor médio de carros iguais a este anunciado na Webmotos
+                </h4>
+              </div>
+              <div>
+                <h4 className="valores--titulo">fipe</h4>
+                <strong>R$ 130.202</strong>
+                <h4>Valor deste carro na Tabela Fipe</h4>
+              </div>
+            </div>
+            <TituloSecundario as={'a'} href="#">
+              Consulte aqui TOYOTA COROLLA na tabela FIPE Webmotors do seu
+              estado.
+            </TituloSecundario>
+          </PrecosVeiculo>
         </InformacoesCarro>
       </ContainerEsquerda>
 

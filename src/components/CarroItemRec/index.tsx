@@ -32,7 +32,12 @@ const CarroItemRec = ({
       <div className="card-info">
         <h6>{nome}</h6>
         <p>{descricao}</p>
-        <h4>R${valor}</h4>
+        <h4>
+          {valor.toLocaleString('pt-br', {
+            style: 'currency',
+            currency: 'BRL'
+          })}
+        </h4>
         <div>
           <span>{anoModelo}</span>
           <span>{kmRodado}km</span>

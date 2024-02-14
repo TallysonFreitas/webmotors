@@ -156,32 +156,32 @@ const Filtros = () => {
     {
       nome: 'CIVIC',
       marca: 'HONDA',
-      img: 'https://www.webmotors.com.br/novo-portal/static/media/honda-civic.c62a732cc4675bee8407.webp'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/honda-civic.jpg'
     },
     {
       nome: 'COROLLA',
       marca: 'TOYOTA',
-      img: 'https://www.webmotors.com.br/novo-portal/static/media/toyota-corolla.d5026ea9e77ad2172d30.webp'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/toyota-corolla.jpg'
     },
     {
       nome: 'FIT',
       marca: 'HONDA',
-      img: 'https://www.webmotors.com.br/novo-portal/static/media/honda-fit.b67b4f34068ccfc358bb.webp'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/honda-fit.jpg'
     },
     {
       nome: 'GOL',
       marca: 'VOLKSWAGEN',
-      img: 'https://www.webmotors.com.br/novo-portal/static/media/volkswagen-gol.96691816dd1b605ed9e7.webp'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-gol.jpg'
     },
     {
       nome: 'GOLF',
       marca: 'VOLKSWAGEN',
-      img: '	https://www.webmotors.com.br/novo-portal/static/media/volkswagen-golf.d952cb4852d975c19cdf.webp'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-golf.jpg'
     },
     {
       nome: 'JETTA',
       marca: 'VOLKSWAGEN',
-      img: 'https://www.webmotors.com.br/novo-portal/static/media/volkswagen-jetta.a7d6032665dd922a9a36.webp'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-jetta.jpg'
     }
   ]
 

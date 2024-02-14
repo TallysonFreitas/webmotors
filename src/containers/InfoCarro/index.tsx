@@ -45,6 +45,7 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
   return (
     <ContainerInfoCarro>
       <ContainerEsquerda>
+        {/* Informacoes principais */}
         <InformacoesCarro>
           <CapTitulo>
             <h1>
@@ -181,6 +182,8 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
             <p>{carro.sobreVeiculo}</p>
           </SobreVeiculo>
         </InformacoesCarro>
+
+        {/* Itens de veiculo */}
         <InformacoesCarro>
           <ItemsVeiculo>
             <TituloSecundario>Itens de veículo</TituloSecundario>
@@ -193,6 +196,8 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
             </ul>
           </ItemsVeiculo>
         </InformacoesCarro>
+
+        {/* Sobre o vendedor */}
         <InformacoesCarro>
           <SobreALoja>
             <TituloSecundario>Sobre o vendedor</TituloSecundario>
@@ -248,6 +253,8 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
             </div>
           </SobreALoja>
         </InformacoesCarro>
+
+        {/* Compare os Precos */}
         <InformacoesCarro>
           <PrecosVeiculo>
             <TituloSecundario>Compare os precos</TituloSecundario>

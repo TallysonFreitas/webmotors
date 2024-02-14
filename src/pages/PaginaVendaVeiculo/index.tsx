@@ -30,7 +30,7 @@ export type CarroType = {
   }
   itensVeiculo: string[]
   loja: { nome: string; localizacao: string }
-  comparaPrecos: { mediaWebMotors: string; fipe: string }
+  comparaPrecos: { mediaWebMotors: number; fipe: number }
 }
 
 const PaginaVendaVeiculo = () => {
@@ -55,7 +55,7 @@ const PaginaVendaVeiculo = () => {
     PromoCondicoes: { carDelivery: false, troco: false, superPreco: false },
     itensVeiculo: [],
     loja: { nome: '', localizacao: '' },
-    comparaPrecos: { mediaWebMotors: '', fipe: '' }
+    comparaPrecos: { mediaWebMotors: 0, fipe: 0 }
   })
 
   console.log(typeof carro)

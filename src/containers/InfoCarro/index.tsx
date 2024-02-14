@@ -254,21 +254,36 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
             <div className="valores">
               <div>
                 <h4>Valor anunciado</h4>
-                <strong>R$ {carro.valorAnuncio}</strong>
+                <strong>
+                  {carro.valorAnuncio.toLocaleString('pt-br', {
+                    style: 'currency',
+                    currency: 'BRL'
+                  })}
+                </strong>
               </div>
               <div>
                 <img
                   src="https://www.webmotors.com.br/assets/img/icon/brand-webmotors-color.svg?t=2493"
                   alt=""
                 />
-                <strong>R$ {carro.comparaPrecos.mediaWebMotors}</strong>
+                <strong>
+                  {carro.comparaPrecos.mediaWebMotors.toLocaleString('pt-br', {
+                    style: 'currency',
+                    currency: 'BRL'
+                  })}
+                </strong>
                 <h4>
                   Valor médio de carros iguais a este anunciado na Webmotos
                 </h4>
               </div>
               <div>
                 <h4 className="valores--titulo">fipe</h4>
-                <strong>R$ {carro.comparaPrecos.fipe}</strong>
+                <strong>
+                  {carro.comparaPrecos.fipe.toLocaleString('pt-br', {
+                    style: 'currency',
+                    currency: 'BRL'
+                  })}
+                </strong>
                 <h4>Valor deste carro na Tabela Fipe</h4>
               </div>
             </div>
@@ -283,7 +298,12 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
 
       <ContainerFormInteresse>
         <div className="container-valor">
-          <strong>R$ 199.900</strong>
+          <strong>
+            {carro.valorAnuncio.toLocaleString('pt-br', {
+              style: 'currency',
+              currency: 'BRL'
+            })}
+          </strong>
           <button>Ver parcelas</button>
         </div>
         <TituloSecundario>Envie uma mensagem ao vendedor</TituloSecundario>

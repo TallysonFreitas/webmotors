@@ -56,22 +56,23 @@ export const ContainerLinks = styled.div`
         }
       }
 
-      h4:hover {
+      ul {
+        display: none;
+        background-color: #696977;
+        padding: 8px;
+      }
+
+      &:hover > ul {
+        display: flex;
+      }
+
+      &:hover > h4 {
         &::after {
           content: '-';
           position: absolute;
           right: 16px;
           top: 0px;
         }
-      }
-
-      h4:hover ~ ul {
-        display: flex;
-      }
-      ul {
-        display: none;
-        background-color: #696977;
-        padding: 8px;
       }
     }
   }

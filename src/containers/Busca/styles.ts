@@ -16,6 +16,7 @@ export const BuscaContainer = styled.div`
 
   @media (max-width: 1440px) {
     width: 100%;
+    margin-top: 0px;
   }
 
   .buttons-menu {
@@ -51,6 +52,11 @@ export const BuscaContainer = styled.div`
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 640px) {
+      flex-direction: column;
+      gap: 8px;
+    }
+
     .link {
       background-color: #e00;
       transition: all ease 0.2s;
@@ -64,6 +70,10 @@ export const BuscaContainer = styled.div`
       text-decoration: none;
       font-weight: 600;
       font-size: 14px;
+
+      @media (max-width: 640px) {
+        width: 80%;
+      }
 
       &:hover {
         background-color: #a00;
@@ -81,8 +91,12 @@ export const BuscaContainer = styled.div`
       position: relative;
       padding: 2px;
 
+      @media (max-width: 640px) {
+        width: 80%;
+      }
+
       svg {
-        width: 5%;
+        width: 32px;
         padding: 8px 8px;
       }
 

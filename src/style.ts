@@ -20,4 +20,8 @@ export const ContainerPadrao = styled.div`
   @media (max-width: 1440px) {
     padding: 0px 48px;
   }
+
+  @media (max-width: 640px) {
+    padding: 0px 12px;
+  }
 `

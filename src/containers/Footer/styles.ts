@@ -36,6 +36,45 @@ export const ContainerLinks = styled.div`
       }
     }
   }
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 0px;
+
+    div {
+      padding: 0px;
+
+      h4 {
+        padding: 8px;
+        position: relative;
+
+        &::after {
+          content: '+';
+          position: absolute;
+          right: 16px;
+          top: 0px;
+        }
+      }
+
+      h4:hover {
+        &::after {
+          content: '-';
+          position: absolute;
+          right: 16px;
+          top: 0px;
+        }
+      }
+
+      h4:hover ~ ul {
+        display: flex;
+      }
+      ul {
+        display: none;
+        background-color: #696977;
+        padding: 8px;
+      }
+    }
+  }
 `
 
 export const BoxAtendimento = styled.a`

@@ -13,6 +13,7 @@ const Footer = () => {
         Nossos canais de atendimento são 100% digitais. Precisa de ajuda?
         <span>CLIQUE AQUI</span>
       </BoxAtendimento>
+      {/* coluna ou barra de informacoes */}
       <ContainerLinks>
         <div>
           <h4>Comprar</h4>

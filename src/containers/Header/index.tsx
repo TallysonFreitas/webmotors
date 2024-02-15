@@ -3,7 +3,7 @@ import { HeaderContainer } from './styles'
 const Header = () => {
   return (
     <HeaderContainer>
-      <a className="logo" href="#">
+      <a className="logo" href="/">
         <svg>
           <g>
             <path

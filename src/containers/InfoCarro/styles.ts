@@ -13,6 +13,13 @@ export const ContainerInfoCarro = styled.div`
   gap: 16px;
   position: relative;
   margin-bottom: 48px;
+
+  @media (max-width: 640px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 0px;
+  }
 `
 
 export const InformacoesCarro = styled.div`
@@ -144,9 +151,18 @@ export const CondicoesVeiculo = styled.div`
   gap: 8px;
   border-bottom: 1px solid #dedede;
 
+  @media (max-width: 640px) {
+    max-height: 600px;
+  }
+
   .promo-state {
     display: flex;
     gap: 16px;
+
+    @media (max-width: 640px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   .videochamada {
@@ -154,6 +170,11 @@ export const CondicoesVeiculo = styled.div`
     justify-content: space-between;
     aling-items: center;
     padding: 16px;
+
+    @media (max-width: 640px) {
+      flex-direction: column;
+      align-items: center;
+    }
 
     & > div {
       display: flex;
@@ -265,6 +286,12 @@ export const SobreALoja = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 16px;
 
+    @media (max-width: 640px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     .loja-container {
       display: flex;
       flex-direction: column;
@@ -351,11 +378,20 @@ export const PrecosVeiculo = styled.div`
     display: flex;
     gap: 40px;
 
+    @media (max-width: 640px) {
+      flex-direction: column;
+      gap: 24px;
+    }
+
     div {
       width: 32%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+
+      @media (max-width: 640px) {
+        width: 100%;
+      }
 
       .valores--titulo {
         font-size: 22px;

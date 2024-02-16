@@ -15,6 +15,7 @@ export const HeaderContainer = styled.header`
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
   position: fixed;
   z-index: 10;
+  top: 0;
 
   .logo {
     width: 145px;

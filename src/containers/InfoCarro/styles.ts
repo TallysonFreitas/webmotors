@@ -127,6 +127,10 @@ export const CapTitulo = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 16px;
 
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
     strong {
       padding: 0 50px 0 0;
     }

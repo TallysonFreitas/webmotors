@@ -151,6 +151,7 @@ export const MenuCelular = styled.div<MenuCelularType>`
     background-color: #2e2d37;
     padding: 24px 16px;
     gap: 16px;
+    position: relative;
 
     h2 {
       font-size: 16px;
@@ -172,4 +173,29 @@ export const MenuCelular = styled.div<MenuCelularType>`
 
 export const LinkDropdown = styled.ul`
   width: 100%;
+`
+
+export const CloseButton = styled.div`
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 15px;
+  margin-top: 0;
+  margin-right: 0;
+
+  div:first-child {
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  div:last-child {
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    transform: rotate(45deg) translate(5px, 7px);
+  }
 `

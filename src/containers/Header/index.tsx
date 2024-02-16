@@ -1,5 +1,10 @@
 import { useState } from 'react'
-import { HeaderContainer, LinkDropdown, MenuCelular } from './styles'
+import {
+  CloseButton,
+  HeaderContainer,
+  LinkDropdown,
+  MenuCelular
+} from './styles'
 import DropDownMenuItem from '../../components/DropdownMenu'
 
 const Header = () => {
@@ -412,6 +417,14 @@ const Header = () => {
           <h2>
             <a href="#">Entrar ou Cadastrar</a>
           </h2>
+          <CloseButton
+            onClick={() => {
+              setMenuAtivo(false)
+            }}
+          >
+            <div></div>
+            <div></div>
+          </CloseButton>
         </div>
         <h2 className="titulo-menu">Menu</h2>
         <LinkDropdown>

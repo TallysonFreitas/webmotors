@@ -47,7 +47,7 @@ export const ItemsVeiculo = styled.div`
     gap: 16px 32px;
 
     @media (max-width: 640px) {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
 
     li {

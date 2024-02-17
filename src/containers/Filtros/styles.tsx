@@ -51,4 +51,10 @@ export const Filtro = styled.div`
       display: none; /* Safari and Chrome */
     }
   }
+
+  .carros-recomendados {
+    @media (max-width: 640px) {
+      flex-direction: column;
+    }
+  }
 `

@@ -7,55 +7,80 @@ export const ContainerCarroItem = styled.div`
   background-color: #fff;
   overflow: hidden;
 
-  .card-info {
-    height: 160px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 8px 12px;
+  @media (max-width: 640px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    h6 {
-      font-weight: 600;
-    }
-    p {
-      font-size: 12px;
-      font-weight: 500;
-      color: #999;
-      margin-bottom: 24px;
-    }
-    h4 {
-      font-size: 20px;
-      font-weight: 500;
-      color: #444;
-    }
-
-    div {
-      display: flex;
-      justify-content: space-between;
-
-      span {
-        font-size: 12px;
-        color: #999;
-      }
+  .carrossel {
+    @media (max-width: 640px) {
+      max-width: 100%;
     }
   }
 
-  .card-bottom {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid #aaa;
-    align-items: center;
-    padding: 14px 18px;
-
-    span {
-      font-size: 12px;
-      color: #aaa;
+  .container-bottom {
+    .card-info {
+      height: 160px;
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 8px 12px;
 
-      svg {
-        width: 16px;
-        height: 16px;
+      @media (max-width: 640px) {
+        height: 136px;
+      }
+
+      h6 {
+        font-weight: 600;
+      }
+      p {
+        font-size: 12px;
+        font-weight: 500;
+        color: #999;
+        margin-bottom: 24px;
+
+        @media (max-width: 640px) {
+          font-size: 10px;
+        }
+      }
+      h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #444;
+
+        @media (max-width: 640px) {
+          font-size: 14px;
+        }
+      }
+
+      div {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+          font-size: 12px;
+          color: #999;
+        }
+      }
+    }
+
+    .card-bottom {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #aaa;
+      align-items: center;
+      padding: 14px 18px;
+
+      span {
+        font-size: 12px;
+        color: #aaa;
+        display: flex;
+        align-items: center;
+
+        svg {
+          width: 16px;
+          height: 16px;
+        }
       }
     }
   }

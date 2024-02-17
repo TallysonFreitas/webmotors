@@ -284,7 +284,7 @@ const Filtros = () => {
         ))}
       </div>
       <h3 className="titulo-filtro">Recomendados para você</h3>
-      <div className="container-scroll">
+      <div className="container-scroll carros-recomendados">
         {carrosRecomendados.map((each) => (
           <CarroItemRec
             img={each.imgs}

@@ -46,7 +46,10 @@ const CarroItemRec = ({
           </h4>
           <div>
             <span>{anoModelo}</span>
-            <span>{kmRodado}km</span>
+            <span>
+              {kmRodado.toLocaleString('pt-br', { minimumFractionDigits: 0 })}{' '}
+              km
+            </span>
           </div>
         </div>
         <div className="card-bottom">

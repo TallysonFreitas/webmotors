@@ -10,6 +10,7 @@ export const ContainerCarroItem = styled.div`
   @media (max-width: 640px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 160px;
   }
 
   .carrossel {
@@ -19,6 +20,9 @@ export const ContainerCarroItem = styled.div`
   }
 
   .container-bottom {
+    @media (max-width: 640px) {
+      height: 140px;
+    }
     .card-info {
       height: 160px;
       display: flex;
@@ -27,7 +31,7 @@ export const ContainerCarroItem = styled.div`
       padding: 8px 12px;
 
       @media (max-width: 640px) {
-        height: 136px;
+        height: 120px;
       }
 
       h6 {
@@ -38,6 +42,10 @@ export const ContainerCarroItem = styled.div`
         font-weight: 500;
         color: #999;
         margin-bottom: 24px;
+
+        @media (max-width: 640px) {
+          margin-bottom: 8px;
+        }
 
         @media (max-width: 640px) {
           font-size: 10px;
@@ -70,6 +78,10 @@ export const ContainerCarroItem = styled.div`
       border-top: 1px solid #aaa;
       align-items: center;
       padding: 14px 18px;
+
+      @media (max-width: 640px) {
+        padding: 8px 18px;
+      }
 
       span {
         font-size: 12px;

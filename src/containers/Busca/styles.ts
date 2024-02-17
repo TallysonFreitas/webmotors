@@ -23,6 +23,11 @@ export const BuscaContainer = styled.div`
     display: flex;
     gap: 24px;
 
+    @media (max-width: 640px) {
+      gap: 0px;
+      justify-content: space-between;
+    }
+
     .buttons-menu--item {
       background-color: transparent;
       border: none;
@@ -34,6 +39,17 @@ export const BuscaContainer = styled.div`
       transition: border-bottom ease 0.2s;
       color: #777;
       text-decoration: none;
+
+      @media (max-width: 640px) {
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+
+        span {
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+      }
 
       &.active {
         border-bottom: 3px solid #f00;

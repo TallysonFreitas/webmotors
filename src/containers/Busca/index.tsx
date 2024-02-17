@@ -11,14 +11,16 @@ const Busca = () => {
         <div className="buttons-menu">
           {buscandoCarros === true ? (
             <>
-              <h2 className="buttons-menu--item active">Comprar carros</h2>
+              <h2 className="buttons-menu--item active">
+                Comprar <span>carros</span>
+              </h2>
               <h2
                 className="buttons-menu--item"
                 onClick={() => {
                   setBuscandoCarros(!buscandoCarros)
                 }}
               >
-                Comprar motos
+                Comprar <span>motos</span>
               </h2>
             </>
           ) : (
@@ -29,9 +31,11 @@ const Busca = () => {
                   setBuscandoCarros(!buscandoCarros)
                 }}
               >
-                Comprar carros
+                Comprar <span>carros</span>
               </h2>
-              <h2 className="buttons-menu--item active">Comprar motos</h2>
+              <h2 className="buttons-menu--item active">
+                Comprar <span>motos</span>
+              </h2>
             </>
           )}
           <a

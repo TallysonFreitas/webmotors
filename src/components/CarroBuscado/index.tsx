@@ -3,18 +3,22 @@ import { ContainerCarroBuscado } from './style'
 const CarroBuscado = ({
   marca,
   nome,
-  img
+  img,
+  link
 }: {
   marca: string
   nome: string
   img: string
+  link: string
 }) => {
   return (
     <ContainerCarroBuscado>
-      <h3>
-        {marca} <span>{nome}</span>
-      </h3>
-      <img src={img} />
+      <a href={link}>
+        <h3>
+          {marca} <span>{nome}</span>
+        </h3>
+        <img src={img} />
+      </a>
     </ContainerCarroBuscado>
   )
 }

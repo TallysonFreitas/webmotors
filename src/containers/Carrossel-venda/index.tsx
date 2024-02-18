@@ -16,7 +16,7 @@ const CarrosselVenda = ({ imgs }: { imgs: string[] }) => {
   return (
     <Swiper slidesPerView={imagensNoCarrossel} navigation loop>
       {imgs.map((each) => (
-        <SwiperSlide key="1">
+        <SwiperSlide key={each}>
           <ContainerImagemCarrossel>
             <ImageCarrossel src={each} alt="" />
           </ContainerImagemCarrossel>

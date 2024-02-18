@@ -34,6 +34,7 @@ export type CarroType = {
 }
 
 const PaginaVendaVeiculo = () => {
+  // Salva item carro
   const [carro, setCarro] = useState({
     id: 0,
     modelo: '',
@@ -58,12 +59,26 @@ const PaginaVendaVeiculo = () => {
     comparaPrecos: { mediaWebMotors: 0, fipe: 0 }
   })
 
-  console.log(typeof carro)
+  // Busca id no URL
+  const urlSearchParams = new URLSearchParams(window.location.search)
+  const PostId = urlSearchParams.get('id')
 
+  // Usa fetch para buscar obj carro
+  async function requisicaoJson() {
+    fetch('./cars.json').then(function (response) {
+      if (response.ok) {
+        if (PostId !== null) {
+          response.json().then((data) => setCarro(data[PostId]))
+        } else {
+          response.json().then((data) => setCarro(data[0]))
+        }
+      }
+    })
+  }
+
+  // Inicia a funcao de busca do obj
   useEffect(() => {
-    fetch('./cars.json')
-      .then((response) => response.json())
-      .then((data) => setCarro(data[0]))
+    requisicaoJson()
   }, [])
 
   return (

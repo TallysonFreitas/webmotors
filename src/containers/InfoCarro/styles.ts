@@ -153,7 +153,7 @@ export const CondicoesVeiculo = styled.div`
   padding: 36px 40px;
   display: flex;
   flex-direction: column;
-  height: 100%;
+
   max-height: 240px;
   overflow-y: visible;
   gap: 8px;

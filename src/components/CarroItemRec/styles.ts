@@ -7,20 +7,20 @@ export const ContainerCarroItem = styled.div`
   background-color: #fff;
   overflow: hidden;
 
-  @media (max-width: 640px) {
+  @media (max-width: 90) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 160px;
   }
 
   .carrossel {
-    @media (max-width: 640px) {
+    @media (max-width: 90) {
       max-width: 100%;
     }
   }
 
   .container-bottom {
-    @media (max-width: 640px) {
+    @media (max-width: 90) {
       height: 140px;
     }
     .card-info {
@@ -30,7 +30,7 @@ export const ContainerCarroItem = styled.div`
       justify-content: space-between;
       padding: 8px 12px;
 
-      @media (max-width: 640px) {
+      @media (max-width: 90) {
         height: 120px;
       }
 
@@ -43,11 +43,11 @@ export const ContainerCarroItem = styled.div`
         color: #999;
         margin-bottom: 24px;
 
-        @media (max-width: 640px) {
+        @media (max-width: 90) {
           margin-bottom: 8px;
         }
 
-        @media (max-width: 640px) {
+        @media (max-width: 90) {
           font-size: 10px;
         }
       }
@@ -56,7 +56,7 @@ export const ContainerCarroItem = styled.div`
         font-weight: 500;
         color: #444;
 
-        @media (max-width: 640px) {
+        @media (max-width: 90) {
           font-size: 14px;
         }
       }
@@ -79,7 +79,7 @@ export const ContainerCarroItem = styled.div`
       align-items: center;
       padding: 14px 18px;
 
-      @media (max-width: 640px) {
+      @media (max-width: 90) {
         padding: 8px 18px;
       }
 

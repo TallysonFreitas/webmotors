@@ -29,7 +29,7 @@ export const HeaderContainer = styled.header`
   .nav {
     display: flex;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       display: none;
     }
 
@@ -93,7 +93,7 @@ export const HeaderContainer = styled.header`
     gap: 24px;
 
     li:first-child {
-      @media (max-width: 640px) {
+      @media (max-width: 900px) {
         display: none;
       }
     }

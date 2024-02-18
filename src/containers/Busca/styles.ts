@@ -23,7 +23,7 @@ export const BuscaContainer = styled.div`
     display: flex;
     gap: 24px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       gap: 0px;
       justify-content: space-between;
     }
@@ -40,7 +40,7 @@ export const BuscaContainer = styled.div`
       color: #777;
       text-decoration: none;
 
-      @media (max-width: 640px) {
+      @media (max-width: 900px) {
         font-size: 12px;
         font-weight: 600;
         text-align: center;
@@ -87,7 +87,7 @@ export const BuscaContainer = styled.div`
       font-weight: 600;
       font-size: 14px;
 
-      @media (max-width: 640px) {
+      @media (max-width: 900px) {
         width: 80%;
       }
 
@@ -107,7 +107,7 @@ export const BuscaContainer = styled.div`
       position: relative;
       padding: 2px;
 
-      @media (max-width: 640px) {
+      @media (max-width: 900px) {
         width: 80%;
       }
 

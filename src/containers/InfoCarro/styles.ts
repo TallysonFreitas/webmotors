@@ -14,7 +14,7 @@ export const ContainerInfoCarro = styled.div`
   position: relative;
   margin-bottom: 48px;
 
-  @media (max-width: 640px) {
+  @media (max-width: 900px) {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -46,7 +46,7 @@ export const ItemsVeiculo = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 16px 32px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       grid-template-columns: 1fr 1fr;
     }
 
@@ -131,7 +131,7 @@ export const CapTitulo = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 16px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       grid-template-columns: 1fr 1fr;
     }
 
@@ -159,7 +159,7 @@ export const CondicoesVeiculo = styled.div`
   gap: 8px;
   border-bottom: 1px solid #dedede;
 
-  @media (max-width: 640px) {
+  @media (max-width: 900px) {
     max-height: 600px;
   }
 
@@ -167,7 +167,7 @@ export const CondicoesVeiculo = styled.div`
     display: flex;
     gap: 16px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       flex-direction: column;
       align-items: center;
     }
@@ -179,7 +179,7 @@ export const CondicoesVeiculo = styled.div`
     aling-items: center;
     padding: 16px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       flex-direction: column;
       align-items: center;
     }
@@ -294,7 +294,7 @@ export const SobreALoja = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 16px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -386,7 +386,7 @@ export const PrecosVeiculo = styled.div`
     display: flex;
     gap: 40px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       flex-direction: column;
       gap: 24px;
     }
@@ -397,7 +397,7 @@ export const PrecosVeiculo = styled.div`
       flex-direction: column;
       align-items: flex-start;
 
-      @media (max-width: 640px) {
+      @media (max-width: 900px) {
         width: 100%;
       }
 

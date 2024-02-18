@@ -37,7 +37,7 @@ export const ContainerLinks = styled.div`
     }
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 900px) {
     flex-direction: column;
     gap: 0px;
 

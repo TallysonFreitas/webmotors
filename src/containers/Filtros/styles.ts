@@ -53,7 +53,7 @@ export const Filtro = styled.div`
   }
 
   .carros-recomendados {
-    @media (max-width: 900px) {
+    @media (max-width: 640px) {
       flex-direction: column;
     }
   }

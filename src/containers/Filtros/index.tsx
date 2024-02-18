@@ -156,32 +156,38 @@ const Filtros = () => {
     {
       nome: 'CIVIC',
       marca: 'HONDA',
-      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/honda-civic.jpg'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/honda-civic.jpg',
+      link: 'http://localhost:3000/comprar-veiculo?id=3'
     },
     {
       nome: 'COROLLA',
       marca: 'TOYOTA',
-      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/toyota-corolla.jpg'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/toyota-corolla.jpg',
+      link: 'http://localhost:3000/comprar-veiculo?id=1'
     },
     {
       nome: 'FIT',
       marca: 'HONDA',
-      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/honda-fit.jpg'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/honda-fit.jpg',
+      link: 'http://localhost:3000/comprar-veiculo?id=1'
     },
     {
       nome: 'GOL',
       marca: 'VOLKSWAGEN',
-      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-gol.jpg'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-gol.jpg',
+      link: 'http://localhost:3000/comprar-veiculo?id=1'
     },
     {
       nome: 'GOLF',
       marca: 'VOLKSWAGEN',
-      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-golf.jpg'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-golf.jpg',
+      link: 'http://localhost:3000/comprar-veiculo?id=1'
     },
     {
       nome: 'JETTA',
       marca: 'VOLKSWAGEN',
-      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-jetta.jpg'
+      img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-jetta.jpg',
+      link: 'http://localhost:3000/comprar-veiculo?id=3'
     }
   ]
 
@@ -279,6 +285,7 @@ const Filtros = () => {
             marca={each.marca}
             nome={each.nome}
             img={each.img}
+            link={each.link}
             key={each.nome}
           />
         ))}

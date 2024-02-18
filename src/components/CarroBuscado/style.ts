@@ -8,26 +8,28 @@ export const ContainerCarroBuscado = styled.div`
   position: relative;
   border-radius: 8px;
 
-  h3 {
-    position: absolute;
-    left: 16px;
-    top: 16px;
-    font-size: 16px;
-    color: #444;
-    font-weight: 600;
-    z-index: 1;
+  a {
+    h3 {
+      position: absolute;
+      left: 16px;
+      top: 16px;
+      font-size: 16px;
+      color: #444;
+      font-weight: 600;
+      z-index: 1;
 
-    span {
-      display: block;
-      color: rgb(225, 17, 56);
-      font-weight: 800;
+      span {
+        display: block;
+        color: rgb(225, 17, 56);
+        font-weight: 800;
+      }
     }
-  }
 
-  img {
-    position: absolute;
-    margin: auto;
-    top: 40px;
-    bottom: 0;
+    img {
+      position: absolute;
+      margin: auto;
+      top: 40px;
+      bottom: 0;
+    }
   }
 `

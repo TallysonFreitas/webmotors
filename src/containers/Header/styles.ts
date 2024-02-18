@@ -99,7 +99,7 @@ export const HeaderContainer = styled.header`
     }
 
     li:last-child {
-      @media (min-width: 641px) {
+      @media (min-width: 900px) {
         display: none;
       }
     }
@@ -142,7 +142,7 @@ export const MenuCelular = styled.div<MenuCelularType>`
   transform: ${(props) =>
     props.ativo ? 'translateX(0vw)' : 'translateX(100vw)'};
 
-  @media (min-width: 641px) {
+  @media (min-width: 900px) {
     display: none;
   }
 

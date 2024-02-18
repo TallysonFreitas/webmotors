@@ -14,9 +14,7 @@ export const ContainerCarroItem = styled.div`
   }
 
   .carrossel {
-    @media (max-width: 640px) {
-      max-width: 100%;
-    }
+    max-width: 100%;
   }
 
   .container-bottom {
@@ -100,7 +98,9 @@ export const ContainerCarroItem = styled.div`
 
 export const CarrosselItem = styled.div<carrosselImgType>`
   width: 100%;
-  height: 178px;
+  height: 100%;
+  min-height: 178px;
+  min-width: 100px;
   background-image: url(${(props) => props.img});
   background-size: cover;
   background-position: center;

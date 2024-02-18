@@ -243,8 +243,8 @@ export const StatusPlus = styled.div`
     max-height: 0px;
     overflow: hidden;
     transition:
-      opacity 0.1s ease-in 0s,
-      max-height 0.1s ease-in 0s;
+      opacity 0.4s ease-in 0s,
+      max-height 0.4s ease-in 0s;
 
     p {
       color: rgb(45, 45, 55);

@@ -350,6 +350,9 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
             name="whatsapp"
             id="whatsapp"
             checked={user.whatsapp}
+            onClick={() => {
+              setUser({ ...user, whatsapp: !user.whatsapp })
+            }}
           />
           <label htmlFor="whatsapp">
             Quero receber contatos da Webmotors por e-mail, WhatsApp e outros

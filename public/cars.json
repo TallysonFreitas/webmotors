@@ -108,4 +108,70 @@
   "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
   "loja":{"nome":"Autop", "localizacao":"Belo Horizonte, MG"},
   "comparaPrecos":{"mediaWebMotors":152678, "fipe":130202}
+},{
+  "id":100006,
+  "modelo": "Fit",
+  "marca": "Honda",
+  "valorAnuncio": 72900,
+  "informacoes": {
+    "cidadeCapital": "Sao Paulo - SP",
+    "ano": "2017/2018",
+    "KM": "104.556",
+    "cambio": "Automático",
+    "carroceria": "Hatchback",
+    "combustível": "Gasolina e álcool",
+    "finalDePlaca": 6,
+    "cor": "Prata",
+    "aceitaTroca": "Sim"
+  },
+  "sobreVeiculo":"Se você está buscando um novo carro, não se arrisque e compre na Localiza Seminovos: carros com 360 itens verificados, garantia e procedência. Aqui você encontra a maior variedade de modelos do mercado, condições únicas de financiamento, entrada facilitada em até 10 vezes sem juros, carros revisados e com garantia de quilometragem real. Viabilizamos a troca do seu carro usado e entregamos seu novo carro na segurança de sua casa! Agende já seu atendimento.",
+  "imgs":["https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202312/20231219/honda-fit-1.5-lx-16v-flex-4p-automatico-wmimagem10381810563.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202312/20231219/honda-fit-1.5-lx-16v-flex-4p-automatico-wmimagem10382249822.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202312/20231219/honda-fit-1.5-lx-16v-flex-4p-automatico-wmimagem10380229958.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202312/20231219/honda-fit-1.5-lx-16v-flex-4p-automatico-wmimagem1038063541.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202312/20231219/honda-fit-1.5-lx-16v-flex-4p-automatico-wmimagem10383521137.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202312/20231219/honda-fit-1.5-lx-16v-flex-4p-automatico-wmimagem10383936496.jpg?s=fill&w=552&h=414&q=60"],
+  "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":false},
+  "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
+  "loja":{"nome":"Valcar Veiculos", "localizacao":"São Paulo, SP"},
+  "comparaPrecos":{"mediaWebMotors":71890, "fipe":70493}
+},{
+  "id":100007,
+  "modelo": "Gol",
+  "marca": "Volkswagen",
+  "valorAnuncio": 120900,
+  "informacoes": {
+    "cidadeCapital": "Criciúma - SC",
+    "ano": "2022/2023",
+    "KM": "900",
+    "cambio": "Manual",
+    "carroceria": "Hatchback",
+    "combustível": "Gasolina e álcool",
+    "finalDePlaca": 3,
+    "cor": "Vermelho",
+    "aceitaTroca": "Sim"
+  },
+  "sobreVeiculo":"Se você está buscando um novo carro, não se arrisque e compre na Localiza Seminovos: carros com 360 itens verificados, garantia e procedência. Aqui você encontra a maior variedade de modelos do mercado, condições únicas de financiamento, entrada facilitada em até 10 vezes sem juros, carros revisados e com garantia de quilometragem real. Viabilizamos a troca do seu carro usado e entregamos seu novo carro na segurança de sua casa! Agende já seu atendimento.",
+  "imgs":["https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372668742.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372700410.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372726724.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372770729.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372792736.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372823429.webp?s=fill&w=552&h=414&q=60"],
+  "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":true},
+  "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
+  "loja":{"nome":"Autop", "localizacao":"Belo Horizonte, MG"},
+  "comparaPrecos":{"mediaWebMotors":179902, "fipe":108893}
+},{
+  "id":100008,
+  "modelo": "Golf",
+  "marca": "Volkswagen",
+  "valorAnuncio": 210990,
+  "informacoes": {
+    "cidadeCapital": "Piracicaba - SP",
+    "ano": "2018/2019",
+    "KM": "43.779",
+    "cambio": "Automático",
+    "carroceria": "Hatchback",
+    "combustível": "Gasolina",
+    "finalDePlaca": 0,
+    "cor": "Cinza",
+    "aceitaTroca": "Sim"
+  },
+  "sobreVeiculo":"Reprogramação de TCU e ECU Perfortech, intake, velas de RS7, bobinas APR, manutenção em dia e pneus novos. Visitas apenas sob agendamento. Outros Opcionais: Farol de neblina, Direção Elétrica, Comando de áudio no volante, Banco bi-partido, Controle de estabilidade, Distribuição eletrônica de frenagem, Kit Multimídia, Pára-choques na cor do veículo.",
+  "imgs":["https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09125769698.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09125839615.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09125886830.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09125969540.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09130028291.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09130093338.jpg?s=fill&w=552&h=414&q=60"],
+  "PromoCondicoes":{"carDelivery": false, "troco":true, "superPreco":false},
+  "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
+  "loja":{"nome":"Cup Car Series Ltda", "localizacao":"Piracicaba, SP"},
+  "comparaPrecos":{"mediaWebMotors":208218, "fipe":203637}
 }]

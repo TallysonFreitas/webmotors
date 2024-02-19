@@ -10,7 +10,8 @@ const CarroItemRec = ({
   valor,
   anoModelo,
   kmRodado,
-  localizacao
+  localizacao,
+  link
 }: {
   img: string[]
   nome: string
@@ -19,6 +20,7 @@ const CarroItemRec = ({
   anoModelo: string
   kmRodado: number
   localizacao: string
+  link: string
 }) => {
   return (
     <ContainerCarroItem>
@@ -35,8 +37,8 @@ const CarroItemRec = ({
         ))}
       </Swiper>
       <div className="container-bottom">
-        <div className="card-info">
-          <h6>{nome}</h6>
+        <a href={link} className="card-info">
+          <h6>{nome.toUpperCase()}</h6>
           <p>{descricao}</p>
           <h4>
             {valor.toLocaleString('pt-br', {
@@ -51,7 +53,7 @@ const CarroItemRec = ({
               km
             </span>
           </div>
-        </div>
+        </a>
         <div className="card-bottom">
           <span>
             <svg

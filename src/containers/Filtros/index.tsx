@@ -45,6 +45,7 @@ const Filtros = () => {
 
   const carrosRecomendados = [
     {
+      link: 'comprar-veiculo?id=0',
       imgs: [
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM21270881766.jpg',
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM23481481698.jpg',
@@ -61,6 +62,7 @@ const Filtros = () => {
       localizacao: 'Ribeirao Pires - SP'
     },
     {
+      link: 'comprar-veiculo?id=2',
       imgs: [
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16180019216.jpg',
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16180048920.jpg',
@@ -76,36 +78,41 @@ const Filtros = () => {
       localizacao: 'Imperatriz - MA'
     },
     {
+      link: '/comprar-veiculo?id=7',
       imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463090538.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463042239.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463134928.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09125769698.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09125839615.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09125886830.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09125969540.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09130028291.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240126/volkswagen-golf-2.0-350-tsi-gasolina-gti-dsg-wmimagem09130093338.jpg?s=fill&w=552&h=414&q=60'
       ],
-      nome: 'MITSUBISH LANCER',
+      nome: 'Volkswagen GOLF',
       descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
-      valor: 71900,
-      anoModelo: '2015/2015',
-      kmRodado: 88800,
-      localizacao: 'Extrema - MG'
+      valor: 210990,
+      anoModelo: '2018/2019',
+      kmRodado: 43779,
+      localizacao: 'Piracicaba - SP'
     },
     {
+      link: '/comprar-veiculo?id=1',
       imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231205/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem16472737991.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231205/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem16473224079.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231205/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem16473391361.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240206/toyota-corolla-1.8-vvti-hybrid-flex-altis-premium-cvt-wmimagem10185520548.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240206/toyota-corolla-1.8-vvti-hybrid-flex-altis-premium-cvt-wmimagem10185686546.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240206/toyota-corolla-1.8-vvti-hybrid-flex-altis-premium-cvt-wmimagem10115699673.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240206/toyota-corolla-1.8-vvti-hybrid-flex-altis-premium-cvt-wmimagem10185966734.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240206/toyota-corolla-1.8-vvti-hybrid-flex-altis-premium-cvt-wmimagem10190116882.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240206/toyota-corolla-1.8-vvti-hybrid-flex-altis-premium-cvt-wmimagem10190283356.jpg?s=fill&w=552&h=414&q=60'
       ],
-      nome: 'MITSUBISH LANCER',
+      nome: 'Toyota Corolla',
       descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
-      valor: 69990,
-      anoModelo: '2017/2018',
-      kmRodado: 103000,
+      valor: 189900,
+      anoModelo: '2020/2021',
+      kmRodado: 26042,
       localizacao: 'Sao Paulo - SP'
     },
     {
+      link: 'comprar-veiculo?id=3',
       imgs: [
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19572912221.webp',
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19572932516.webp',
@@ -121,6 +128,7 @@ const Filtros = () => {
       localizacao: 'Jundiaí - SP'
     },
     {
+      link: '',
       imgs: [
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19112844850.jpg',
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19112928058.jpg',
@@ -136,6 +144,7 @@ const Filtros = () => {
       localizacao: 'Osasco - SP'
     },
     {
+      link: '',
       imgs: [
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240112/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem14503791651.jpg',
         'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240112/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem14483619521.jpg',
@@ -302,6 +311,7 @@ const Filtros = () => {
             valor={each.valor}
             localizacao={each.localizacao}
             key={each.nome}
+            link={each.link}
           />
         ))}
       </div>

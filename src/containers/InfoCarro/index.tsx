@@ -49,7 +49,8 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
         <InformacoesCarro>
           <CapTitulo>
             <h1>
-              {carro.marca} <span>{carro.modelo}</span>
+              {carro.marca.toUpperCase()}{' '}
+              <span>{carro.modelo.toUpperCase()}</span>
               <span>2.0 FREESTYLE PLUS 16V FLEX 4P POWERSHIFT</span>
             </h1>
             <div>

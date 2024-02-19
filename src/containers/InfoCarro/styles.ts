@@ -5,14 +5,16 @@ export type BackgroundImage = { img: string }
 export const ContainerInfoCarro = styled.div`
   display: grid;
   padding: 0 50px;
-  margin-top: -45px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: -45px auto 48px;
   max-width: 1460px;
   grid-template-columns: auto 440px;
   gap: 16px;
   position: relative;
-  margin-bottom: 48px;
+
+  @media (max-width: 1280px) {
+    padding: 0 16px;
+    grid-template-columns: auto 300px;
+  }
 
   @media (max-width: 900px) {
     display: flex;
@@ -74,6 +76,11 @@ export const ContainerFormInteresse = styled.div`
     margin-bottom: -20px;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 1280px) {
+      flex-direction: column-reverse;
+    }
+
     strong {
       font-size: 40px;
       font-weight: 500;
@@ -89,6 +96,11 @@ export const ContainerFormInteresse = styled.div`
       font-size: 12px;
       font-weight: 500;
       cursor: pointer;
+
+      @media (max-width: 1280px) {
+        margin-bottom: 8px;
+        margin-top: -16px;
+      }
     }
   }
 
@@ -200,6 +212,10 @@ export const CondicoesVeiculo = styled.div`
   gap: 8px;
   border-bottom: 1px solid #dedede;
 
+  @media (max-width: 1280px) {
+    max-height: 800px;
+  }
+
   @media (max-width: 900px) {
     max-height: 600px;
   }
@@ -208,7 +224,7 @@ export const CondicoesVeiculo = styled.div`
     display: flex;
     gap: 16px;
 
-    @media (max-width: 900px) {
+    @media (max-width: 1280px) {
       flex-direction: column;
       align-items: center;
     }
@@ -426,6 +442,11 @@ export const PrecosVeiculo = styled.div`
   .valores {
     display: flex;
     gap: 40px;
+
+    @media (max-width: 1280px) {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
 
     @media (max-width: 900px) {
       flex-direction: column;

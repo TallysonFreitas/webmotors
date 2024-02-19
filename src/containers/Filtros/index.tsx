@@ -47,11 +47,10 @@ const Filtros = () => {
     {
       link: 'comprar-veiculo?id=0',
       imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM21270881766.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM23481481698.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM21274610916.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM21290071231.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-WMIMAGEM23525499247.jpg'
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-wmimagem21270881766.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-wmimagem23481481698.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-wmimagem21274610916.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240103/mitsubishi-lancer-2.0-evolution-x-john-easton-4x4-16v-turbo-intercooler-gasolina-4p-automatico-wmimagem2147335673.jpg?s=fill&w=552&h=414&q=60'
       ],
       nome: 'MITSUBISH LANCER',
       descricao:
@@ -64,11 +63,12 @@ const Filtros = () => {
     {
       link: 'comprar-veiculo?id=2',
       imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16180019216.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16180048920.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16180119237.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16175945718.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2022/202211/20221110/HONDA-CIVIC-2.0-16V-FLEXONE-EXL-4P-CVT-wmimagem16175908231.jpg'
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240201/honda-civic-2.0-16v-flexone-ex-4p-cvt-wmimagem17294073680.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240201/honda-civic-2.0-16v-flexone-ex-4p-cvt-wmimagem17255780083.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240201/honda-civic-2.0-16v-flexone-ex-4p-cvt-wmimagem17294484296.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240201/honda-civic-2.0-16v-flexone-ex-4p-cvt-wmimagem17260200716.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240201/honda-civic-2.0-16v-flexone-ex-4p-cvt-wmimagem17260462212.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202402/20240201/honda-civic-2.0-16v-flexone-ex-4p-cvt-wmimagem17295128018.jpg?s=fill&w=552&h=414&q=60'
       ],
       nome: 'HONDA CIVIC',
       descricao: '2.0 LXR 16V FLEX 4P AUTOMÁTICO',
@@ -114,11 +114,12 @@ const Filtros = () => {
     {
       link: 'comprar-veiculo?id=3',
       imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19572912221.webp',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19572932516.webp',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19573023340.webp',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19573048231.webp',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240113/volkswagen-jetta-2-0-350-tsi-gasolina-gli-dsg-wmimagem19573118276.webp'
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231113/volkswagen-jetta-2.0-350-tsi-gasolina-gli-dsg-wmimagem15190517588.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231113/volkswagen-jetta-2.0-350-tsi-gasolina-gli-dsg-wmimagem15190574731.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231113/volkswagen-jetta-2.0-350-tsi-gasolina-gli-dsg-wmimagem15190802585.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231113/volkswagen-jetta-2.0-350-tsi-gasolina-gli-dsg-wmimagem15175629815.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231113/volkswagen-jetta-2.0-350-tsi-gasolina-gli-dsg-wmimagem15191139028.jpg?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202311/20231113/volkswagen-jetta-2.0-350-tsi-gasolina-gli-dsg-wmimagem15191827559.jpg?s=fill&w=552&h=414&q=60'
       ],
       nome: 'VOLKSWAGEN JETTA',
       descricao: '2.0 350 TSI GASOLINA GLI DSG',

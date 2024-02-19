@@ -5,7 +5,7 @@ const CarrosselHome = () => {
   return (
     <Swiper className="" slidesPerView={1} navigation autoplay loop>
       <SwiperSlide>
-        <a href="https://www.webmotors.com.br/carros/estoque?lkid=2183">
+        <a href="#">
           <picture>
             <SourceCarrossel
               srcSet="https://tpc.googlesyndication.com/simgad/7434839780464587051?"
@@ -19,10 +19,10 @@ const CarrosselHome = () => {
         </a>
       </SwiperSlide>
       <SwiperSlide>
-        <a href="https://www.webmotors.com.br/financiamento/?lkid=1691">
+        <a href="#">
           <picture>
             <SourceCarrossel
-              srcSet="https://tpc.googlesyndication.com/simgad/7434839780464587051?"
+              srcSet="https://tpc.googlesyndication.com/simgad/4662779424105084691?"
               media="(min-width: 641px)"
             />
             <ImageCarrossel
@@ -33,10 +33,10 @@ const CarrosselHome = () => {
         </a>
       </SwiperSlide>
       <SwiperSlide>
-        <a href="https://ajuda.webmotors.com.br/hc/pt-br/articles/360038764071-Como-fa%C3%A7o-para-evitar-golpes-ao-vender-">
+        <a href="#">
           <picture>
             <SourceCarrossel
-              srcSet="https://tpc.googlesyndication.com/simgad/7434839780464587051?"
+              srcSet="https://tpc.googlesyndication.com/simgad/7444578278502576569?"
               media="(min-width: 641px)"
             />
             <ImageCarrossel
@@ -47,10 +47,10 @@ const CarrosselHome = () => {
         </a>
       </SwiperSlide>
       <SwiperSlide>
-        <a href="https://www.webmotors.com.br/carros/estoque?lkid=2054">
+        <a href="#">
           <picture>
             <SourceCarrossel
-              srcSet="https://tpc.googlesyndication.com/simgad/7434839780464587051?"
+              srcSet="https://tpc.googlesyndication.com/simgad/11789951457176907740?"
               media="(min-width: 641px)"
             />
             <ImageCarrossel

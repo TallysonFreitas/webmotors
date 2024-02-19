@@ -244,7 +244,7 @@ const Filtros = () => {
       <h3 className="titulo-filtro">Lojas Oficiais</h3>
       <div className="lojas container-scroll">
         <div>
-          <a href="https://www.webmotors.com.br/ofertas/feiroes/lojaoficialgwm/carros/estoque/gwm&?lkid=2139&tipoveiculo=carros&marca1=GWM&feirao=Loja%20Oficial%20GWM">
+          <a href="#">
             <img
               src="https://target.webmotors.com.br/PF-vender/Lojas-Oficiais/gwm-lojaoficial.png?s=fill&w=180&h=180&q=70"
               alt="GWM"
@@ -252,7 +252,7 @@ const Filtros = () => {
           </a>
         </div>
         <div>
-          <a href="https://www.webmotors.com.br/ofertas/feiroes/lojaoficialnissan/carros-novos/estoque/nissan&?lkid=2102&tipoveiculo=carros-novos&marca1=NISSAN&feirao=Loja%20Oficial%20Nissan">
+          <a href="#">
             <img
               src="https://target.webmotors.com.br/PF-vender/Ads/Nissan.png?s=fill&w=180&h=180&q=70"
               alt="Nissan"
@@ -260,7 +260,7 @@ const Filtros = () => {
           </a>
         </div>
         <div>
-          <a href="https://www.webmotors.com.br/ofertas/feiroes/lojaoficialtoyota/carros-usados/estoque/toyota&?lkid=2103&tipoveiculo=carros-usados&marca1=TOYOTA&feirao=Loja%20Oficial%20Toyota">
+          <a href="#">
             <img
               src="https://target.webmotors.com.br/PF-vender/Lojas-Oficiais/toyota.webp?width=180&height=180?s=fill&w=180&h=180&q=70"
               alt="Toyota"
@@ -268,7 +268,7 @@ const Filtros = () => {
           </a>
         </div>
         <div>
-          <a href="https://www.webmotors.com.br/ofertas/feiroes/lojaoficialhyundai/carros-novos/estoque/hyundai&?lkid=2080&tipoveiculo=carros-novos&marca1=HYUNDAI&feirao=Loja%20Oficial%20Hyundai">
+          <a href="#">
             <img
               src="https://target.webmotors.com.br/PF-vender/Lojas-Oficiais/hyundai.webp?width=180&height=180?s=fill&w=180&h=180&q=70"
               alt="Hyundai"

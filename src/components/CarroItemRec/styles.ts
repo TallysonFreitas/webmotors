@@ -22,6 +22,8 @@ export const ContainerCarroItem = styled.div`
       height: 140px;
     }
     .card-info {
+      cursor: pointer;
+      text-decoration: none;
       height: 160px;
       display: flex;
       flex-direction: column;
@@ -34,6 +36,7 @@ export const ContainerCarroItem = styled.div`
 
       h6 {
         font-weight: 600;
+        color: #000;
       }
       p {
         font-size: 12px;

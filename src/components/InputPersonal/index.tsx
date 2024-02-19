@@ -1,3 +1,4 @@
+import { FuncaoAlteraType } from '../../containers/InfoCarro'
 import { ContainerInput } from './styles'
 
 const InputPersonal = ({
@@ -9,7 +10,7 @@ const InputPersonal = ({
   type: string
   placeholder: string
   valor?: string | number
-  muda: any
+  muda: FuncaoAlteraType
 }) => {
   return (
     <ContainerInput>

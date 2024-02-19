@@ -21,6 +21,8 @@ import {
 } from './styles'
 import { CarroType } from '../../pages/PaginaVendaVeiculo'
 
+export type FuncaoAlteraType = (i: string) => void
+
 const InfoCarro = ({ carro }: { carro: CarroType }) => {
   const [user, setUser] = useState({
     nome: '',
@@ -335,12 +337,26 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
           placeholder="Telefone*"
         />
         <textarea
-          rows={3}
+          rows={4}
           value={user.mensagem}
+          placeholder="deixe sua mensagem para o vendedor aqui"
           onChange={(e) => {
             setUser({ ...user, mensagem: e.target.value })
           }}
         ></textarea>
+        <div className="radial-button">
+          <input
+            type="checkbox"
+            name="whatsapp"
+            id="whatsapp"
+            checked={user.whatsapp}
+          />
+          <label htmlFor="whatsapp">
+            Quero receber contatos da Webmotors por e-mail, WhatsApp e outros
+            canais.
+          </label>
+        </div>
+        <button className="botao-enviar">Enviar Mensagem</button>
       </ContainerFormInteresse>
     </ContainerInfoCarro>
   )

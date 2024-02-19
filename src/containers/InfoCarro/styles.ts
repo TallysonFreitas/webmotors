@@ -58,7 +58,7 @@ export const ItemsVeiculo = styled.div`
 
 export const ContainerFormInteresse = styled.div`
   background-color: #ffffff;
-  height: 600px;
+  height: 560px;
   z-index: 1;
   border-radius: 8px;
   position: sticky;
@@ -103,6 +103,34 @@ export const ContainerFormInteresse = styled.div`
     &:focus {
       outline-color: #8826bb;
     }
+  }
+
+  .radial-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+
+    label {
+      font-weight: 300;
+      font-size: 12px;
+      pointer-events: stroke;
+    }
+
+    input {
+      border: 2px solid #dfe0e7;
+    }
+  }
+
+  .botao-enviar {
+    background-color: #f3123c;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
   }
 `
 

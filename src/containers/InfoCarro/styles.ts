@@ -91,6 +91,19 @@ export const ContainerFormInteresse = styled.div`
       cursor: pointer;
     }
   }
+
+  textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #dfe0e7;
+    color: #000;
+    padding: 8px;
+    resize: none;
+
+    &:focus {
+      outline-color: #8826bb;
+    }
+  }
 `
 
 export const TituloSecundario = styled.h2`

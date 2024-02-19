@@ -25,7 +25,7 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
   const [user, setUser] = useState({
     nome: '',
     email: '',
-    telefone: 0,
+    telefone: '',
     mensagem: 'Olá, tenho interesse no veículo. Por favor entre em contato.',
     whatsapp: true
   })
@@ -38,7 +38,7 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
     setUser({ ...user, email: e })
   }
 
-  function handleChangeTelefone(e: number) {
+  function handleChangeTelefone(e: string) {
     setUser({ ...user, telefone: e })
   }
 
@@ -309,7 +309,8 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
           <strong>
             {carro.valorAnuncio.toLocaleString('pt-br', {
               style: 'currency',
-              currency: 'BRL'
+              currency: 'BRL',
+              minimumFractionDigits: 0
             })}
           </strong>
           <button>Ver parcelas</button>
@@ -330,9 +331,16 @@ const InfoCarro = ({ carro }: { carro: CarroType }) => {
         <InputPersonal
           muda={handleChangeTelefone}
           valor={user.telefone}
-          type="number"
+          type="tel"
           placeholder="Telefone*"
         />
+        <textarea
+          rows={3}
+          value={user.mensagem}
+          onChange={(e) => {
+            setUser({ ...user, mensagem: e.target.value })
+          }}
+        ></textarea>
       </ContainerFormInteresse>
     </ContainerInfoCarro>
   )

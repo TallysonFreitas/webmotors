@@ -169,19 +169,19 @@ const Filtros = () => {
       nome: 'FIT',
       marca: 'HONDA',
       img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/honda-fit.jpg',
-      id: 4
+      id: 5
     },
     {
       nome: 'GOL',
       marca: 'VOLKSWAGEN',
       img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-gol.jpg',
-      id: 4
+      id: 6
     },
     {
       nome: 'GOLF',
       marca: 'VOLKSWAGEN',
       img: 'https://www.webmotors.com.br/novo-portal/static/assets/bestsellers/jpg/volkswagen-golf.jpg',
-      id: 4
+      id: 7
     },
     {
       nome: 'JETTA',

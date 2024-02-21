@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const ContainerFooter = styled.footer``
+export const ContainerFooter = styled.footer`
+  overflow: hidden;
+`
 
 export const ContainerLinks = styled.div`
   width: 100%;

@@ -1,8 +1,12 @@
+import { useSelector } from 'react-redux'
 import CarroItemRec from '../../components/CarroItemRec'
 import { ContainerCarrosBuscados, MenuPesquisa } from './style'
+import { RootReducer } from '../../redux'
 
 const CarrosBuscados = () => {
-  const carrosRecomendados = [
+  const { termo } = useSelector((state: RootReducer) => state.buscarFiltro)
+
+  const carros = [
     {
       link: 'comprar-veiculo?id=0',
       imgs: [
@@ -172,48 +176,28 @@ const CarrosBuscados = () => {
       localizacao: 'Jundiaí - SP'
     }
   ]
+
   return (
     <ContainerCarrosBuscados>
       <MenuPesquisa></MenuPesquisa>
-      {carrosRecomendados.map((each) => (
-        <CarroItemRec
-          img={each.imgs}
-          anoModelo={each.anoModelo}
-          descricao={each.descricao}
-          kmRodado={each.kmRodado}
-          nome={each.nome}
-          valor={each.valor}
-          localizacao={each.localizacao}
-          key={each.nome}
-          link={each.link}
-        />
-      ))}
-      {carrosRecomendados.map((each) => (
-        <CarroItemRec
-          img={each.imgs}
-          anoModelo={each.anoModelo}
-          descricao={each.descricao}
-          kmRodado={each.kmRodado}
-          nome={each.nome}
-          valor={each.valor}
-          localizacao={each.localizacao}
-          key={each.nome}
-          link={each.link}
-        />
-      ))}
-      {carrosRecomendados.map((each) => (
-        <CarroItemRec
-          img={each.imgs}
-          anoModelo={each.anoModelo}
-          descricao={each.descricao}
-          kmRodado={each.kmRodado}
-          nome={each.nome}
-          valor={each.valor}
-          localizacao={each.localizacao}
-          key={each.nome}
-          link={each.link}
-        />
-      ))}
+      {carros
+        .filter(
+          (each) =>
+            each.nome.toLowerCase().includes(termo.toLowerCase()) === true
+        )
+        .map((each) => (
+          <CarroItemRec
+            img={each.imgs}
+            anoModelo={each.anoModelo}
+            descricao={each.descricao}
+            kmRodado={each.kmRodado}
+            nome={each.nome}
+            valor={each.valor}
+            localizacao={each.localizacao}
+            key={each.nome}
+            link={each.link}
+          />
+        ))}
     </ContainerCarrosBuscados>
   )
 }

@@ -141,6 +141,7 @@ export const MenuCelular = styled.div<MenuCelularType>`
   transition: all ease 0.5s;
   transform: ${(props) =>
     props.ativo ? 'translateX(0vw)' : 'translateX(100vw)'};
+  overflow: scroll;
 
   @media (min-width: 900px) {
     display: none;

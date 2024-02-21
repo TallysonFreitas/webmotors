@@ -373,107 +373,109 @@ const Header = () => {
         </li>
       </ul>
       <MenuCelular ativo={menuAtivo}>
-        <div className="header-menu">
-          <svg
-            viewBox="0 0 60 60"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            height="60"
-            width="60"
-          >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M30 0C13.432 0 0 13.432 0 30 0 46.57 13.432 60 30 60c16.569 0 30-13.431 30-30C60 13.432 46.569 0 30 0Z"
-              fill="#ECEDF2"
-            ></path>
-            <mask
-              id="logo-small_svg__a"
-              maskUnits="userSpaceOnUse"
-              x="5"
-              y="5"
-              width="50"
-              height="50"
+        <div className="container-div">
+          <div className="header-menu">
+            <svg
+              viewBox="0 0 60 60"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              height="60"
+              width="60"
             >
-              <rect
-                x="5.061"
-                y="5.061"
-                width="49.3"
-                height="49.3"
-                rx="24.65"
-                fill="#fff"
-              ></rect>
-            </mask>
-            <g mask="url(#logo-small_svg__a)">
-              <path fill="#ECEDF2" d="M5.061 5.061h49v49h-49z"></path>
-            </g>
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M3.614 30.106c0-14.63 11.883-26.49 26.54-26.49 14.656 0 26.537 11.86 26.537 26.49 0 14.63-11.881 26.49-26.538 26.49-14.656 0-26.539-11.86-26.539-26.49Zm39.06 10.998a2.194 2.194 0 0 0 2.315-2.19V21.299a2.195 2.195 0 0 0-2.315-2.19c-1.188.061-2.079 1.126-2.079 2.314v4.844c0 .91-.739 1.646-1.649 1.646H34a1.647 1.647 0 0 1-1.649-1.646v-6.49c0-1.188-.89-2.253-2.079-2.314a2.194 2.194 0 0 0-2.314 2.19v6.614c0 .91-.74 1.646-1.65 1.646h-4.946a1.647 1.647 0 0 1-1.649-1.646v-4.844c0-1.188-.891-2.253-2.08-2.314a2.195 2.195 0 0 0-2.314 2.19v17.49c0 1.188.89 2.252 2.078 2.315a2.195 2.195 0 0 0 2.316-2.19v-4.968c0-.91.737-1.646 1.65-1.646h4.946c.91 0 1.649.736 1.649 1.646v6.49c0 1.187.89 2.251 2.078 2.314a2.195 2.195 0 0 0 2.315-2.19v-6.614c0-.91.738-1.646 1.65-1.646h4.946c.91 0 1.65.736 1.65 1.646v4.844c0 1.187.89 2.251 2.078 2.314Z"
-              fill="#AEAEBA"
-            ></path>
-          </svg>
-          <h2>
-            <a href="#">Entrar ou Cadastrar</a>
-          </h2>
-          <CloseButton
-            onClick={() => {
-              setMenuAtivo(false)
-            }}
-          >
-            <div></div>
-            <div></div>
-          </CloseButton>
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M30 0C13.432 0 0 13.432 0 30 0 46.57 13.432 60 30 60c16.569 0 30-13.431 30-30C60 13.432 46.569 0 30 0Z"
+                fill="#ECEDF2"
+              ></path>
+              <mask
+                id="logo-small_svg__a"
+                maskUnits="userSpaceOnUse"
+                x="5"
+                y="5"
+                width="50"
+                height="50"
+              >
+                <rect
+                  x="5.061"
+                  y="5.061"
+                  width="49.3"
+                  height="49.3"
+                  rx="24.65"
+                  fill="#fff"
+                ></rect>
+              </mask>
+              <g mask="url(#logo-small_svg__a)">
+                <path fill="#ECEDF2" d="M5.061 5.061h49v49h-49z"></path>
+              </g>
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M3.614 30.106c0-14.63 11.883-26.49 26.54-26.49 14.656 0 26.537 11.86 26.537 26.49 0 14.63-11.881 26.49-26.538 26.49-14.656 0-26.539-11.86-26.539-26.49Zm39.06 10.998a2.194 2.194 0 0 0 2.315-2.19V21.299a2.195 2.195 0 0 0-2.315-2.19c-1.188.061-2.079 1.126-2.079 2.314v4.844c0 .91-.739 1.646-1.649 1.646H34a1.647 1.647 0 0 1-1.649-1.646v-6.49c0-1.188-.89-2.253-2.079-2.314a2.194 2.194 0 0 0-2.314 2.19v6.614c0 .91-.74 1.646-1.65 1.646h-4.946a1.647 1.647 0 0 1-1.649-1.646v-4.844c0-1.188-.891-2.253-2.08-2.314a2.195 2.195 0 0 0-2.314 2.19v17.49c0 1.188.89 2.252 2.078 2.315a2.195 2.195 0 0 0 2.316-2.19v-4.968c0-.91.737-1.646 1.65-1.646h4.946c.91 0 1.649.736 1.649 1.646v6.49c0 1.187.89 2.251 2.078 2.314a2.195 2.195 0 0 0 2.315-2.19v-6.614c0-.91.738-1.646 1.65-1.646h4.946c.91 0 1.65.736 1.65 1.646v4.844c0 1.187.89 2.251 2.078 2.314Z"
+                fill="#AEAEBA"
+              ></path>
+            </svg>
+            <h2>
+              <a href="#">Entrar ou Cadastrar</a>
+            </h2>
+            <CloseButton
+              onClick={() => {
+                setMenuAtivo(false)
+              }}
+            >
+              <div></div>
+              <div></div>
+            </CloseButton>
+          </div>
+          <h2 className="titulo-menu">Menu</h2>
+          <LinkDropdown>
+            <DropDownMenuItem>
+              Comprar
+              <svg className="_fzBJV" height="24" width="24">
+                <path
+                  className="_qNJk-"
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                ></path>
+              </svg>
+            </DropDownMenuItem>
+            <DropDownMenuItem>
+              Vender
+              <svg className="_fzBJV" height="24" width="24">
+                <path
+                  className="_qNJk-"
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                ></path>
+              </svg>
+            </DropDownMenuItem>
+            <DropDownMenuItem>
+              Servicos
+              <svg className="_fzBJV" height="24" width="24">
+                <path
+                  className="_qNJk-"
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                ></path>
+              </svg>
+            </DropDownMenuItem>
+            <DropDownMenuItem>
+              Noticias WM1
+              <svg className="_fzBJV" height="24" width="24">
+                <path
+                  className="_qNJk-"
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                ></path>
+              </svg>
+            </DropDownMenuItem>
+            <DropDownMenuItem>
+              Ajuda
+              <svg className="_fzBJV" height="24" width="24">
+                <path
+                  className="_qNJk-"
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                ></path>
+              </svg>
+            </DropDownMenuItem>
+          </LinkDropdown>
         </div>
-        <h2 className="titulo-menu">Menu</h2>
-        <LinkDropdown>
-          <DropDownMenuItem>
-            Comprar
-            <svg className="_fzBJV" height="24" width="24">
-              <path
-                className="_qNJk-"
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              ></path>
-            </svg>
-          </DropDownMenuItem>
-          <DropDownMenuItem>
-            Vender
-            <svg className="_fzBJV" height="24" width="24">
-              <path
-                className="_qNJk-"
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              ></path>
-            </svg>
-          </DropDownMenuItem>
-          <DropDownMenuItem>
-            Servicos
-            <svg className="_fzBJV" height="24" width="24">
-              <path
-                className="_qNJk-"
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              ></path>
-            </svg>
-          </DropDownMenuItem>
-          <DropDownMenuItem>
-            Noticias WM1
-            <svg className="_fzBJV" height="24" width="24">
-              <path
-                className="_qNJk-"
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              ></path>
-            </svg>
-          </DropDownMenuItem>
-          <DropDownMenuItem>
-            Ajuda
-            <svg className="_fzBJV" height="24" width="24">
-              <path
-                className="_qNJk-"
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              ></path>
-            </svg>
-          </DropDownMenuItem>
-        </LinkDropdown>
       </MenuCelular>
     </HeaderContainer>
   )

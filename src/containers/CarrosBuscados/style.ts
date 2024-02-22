@@ -33,6 +33,15 @@ export const MenuPesquisa = styled.div`
   position: absolute;
   top: 63px;
   left: 0px;
-  height: 48px;
+  padding: 8px;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+`
+
+export const InputBuscar = styled.input`
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #aaaaaa;
+  font-weight: 500;
 `

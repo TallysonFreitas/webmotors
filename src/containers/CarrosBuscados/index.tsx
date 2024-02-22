@@ -93,6 +93,23 @@ const CarrosBuscados = () => {
       anoModelo: '2019/2019',
       kmRodado: 30208,
       localizacao: 'Jundiaí - SP'
+    },
+    {
+      link: 'comprar-veiculo?id=6',
+      imgs: [
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372668742.webp?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372700410.webp?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372726724.webp?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372770729.webp?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372792736.webp?s=fill&w=552&h=414&q=60',
+        'https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240111/volkswagen-gol-1-0-12v-mpi-totalflex-last-edition-4p-manual-wmimagem00372823429.webp?s=fill&w=552&h=414&q=60'
+      ],
+      nome: 'Volkswagen Gol',
+      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
+      valor: 120900,
+      anoModelo: '2022/2022',
+      kmRodado: 900,
+      localizacao: 'Rio de Janeiro - RJ'
     }
   ]
 

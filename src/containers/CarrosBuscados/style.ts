@@ -25,6 +25,7 @@ export const ContainerCarrosBuscados = styled.div`
   @media (max-width: 640px) {
     display: flex;
     flex-direction: column;
+    padding: 40px 8px;
   }
 `
 
@@ -33,7 +34,7 @@ export const MenuPesquisa = styled.div`
   position: absolute;
   top: 63px;
   left: 0px;
-  padding: 8px;
+  padding: 16px;
   background-color: #fff;
   display: flex;
   justify-content: center;

@@ -5,7 +5,7 @@ type FiltroStateType = {
 }
 
 const initialState: FiltroStateType = {
-  termo: ' '
+  termo: ''
 }
 
 const filtroSlice = createSlice({

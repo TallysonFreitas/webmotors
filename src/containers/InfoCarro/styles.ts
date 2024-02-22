@@ -445,7 +445,8 @@ export const PrecosVeiculo = styled.div`
 
     @media (max-width: 1280px) {
       flex-wrap: wrap;
-      justify-content: center;
+      align-items: center;
+      flex-direction: column;
       column-gap: 100px;
     }
 

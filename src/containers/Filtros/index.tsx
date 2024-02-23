@@ -144,22 +144,6 @@ const Filtros = () => {
       anoModelo: '2022/2022',
       kmRodado: 900,
       localizacao: 'Rio de Janeiro - RJ'
-    },
-    {
-      link: '',
-      imgs: [
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19112844850.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19112928058.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2024/202401/20240109/mitsubishi-lancer-2.0-hlt-16v-gasolina-4p-automatico-wmimagem19170947822.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463176364.jpg',
-        'https://image.webmotors.com.br/_fotos/AnuncioUsados/gigante/2023/202312/20231227/MITSUBISHI-LANCER-2.0-GT-16V-GASOLINA-4P-AUTOMATICO-wmimagem10463217219.jpg'
-      ],
-      nome: 'MITSUBISH LANCER',
-      descricao: '2.0 GT 16V GASOLINA 4P AUTOMÁTICO',
-      valor: 61698,
-      anoModelo: '2018/2019',
-      kmRodado: 69900,
-      localizacao: 'Osasco - SP'
     }
   ]
 

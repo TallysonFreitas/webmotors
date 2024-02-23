@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Busca from '../../containers/Busca'
 import CarrosselHome from '../../containers/Carrossel-home'
 import Filtros from '../../containers/Filtros'
@@ -6,6 +7,10 @@ import Header from '../../containers/Header'
 import { ContainerPadrao, EstiloGlobal } from '../../style'
 
 const Home = () => {
+  useEffect(() => {
+    scroll(0, 0)
+  }, [])
+
   return (
     <>
       <EstiloGlobal />

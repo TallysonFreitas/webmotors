@@ -328,14 +328,14 @@ export const StatusPlus = styled.div`
   }
 
   &:hover {
-    max-height: 240px;
+    max-height: 400px;
     height: auto;
     box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.3);
   }
 
   &:hover .dropdown-info {
     opacity: 1;
-    max-height: 100px;
+    max-height: 400px;
     padding: 16px;
   }
 `

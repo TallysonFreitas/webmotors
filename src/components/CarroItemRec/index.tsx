@@ -82,7 +82,7 @@ const CarroItemRec = ({
           </span>{' '}
           <span
             onClick={
-              favs.indexOf(nome) === -1
+              favs.indexOf(nome.toLowerCase()) === -1
                 ? () => {
                     dispatch(adicionaFavorito(nome.toLowerCase()))
                   }

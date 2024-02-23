@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { ContainerCarroBuscado } from './style'
 
 const CarroBuscado = ({
@@ -12,14 +13,15 @@ const CarroBuscado = ({
   id: number
 }) => {
   const link = '/comprar-veiculo'
+
   return (
     <ContainerCarroBuscado>
-      <a href={`${link}?id=${id}`}>
+      <Link className="link" to={`${link}?id=${id}`}>
         <h3>
           {marca} <span>{nome}</span>
         </h3>
         <img src={img} />
-      </a>
+      </Link>
     </ContainerCarroBuscado>
   )
 }

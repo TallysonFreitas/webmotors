@@ -8,7 +8,7 @@ export const ContainerCarroBuscado = styled.div`
   position: relative;
   border-radius: 8px;
 
-  a {
+  .link {
     h3 {
       position: absolute;
       left: 16px;

@@ -13,7 +13,11 @@ const FavoritosSlice = createSlice({
   initialState,
   reducers: {
     adicionaFavorito: (state, action: PayloadAction<string>) => {
-      if (state.favs.findIndex((each) => each === action.payload) === -1) {
+      if (
+        state.favs.findIndex(
+          (each) => each.toLowerCase() === action.payload.toLowerCase()
+        ) === -1
+      ) {
         state.favs = [...state.favs, action.payload]
       }
     },

@@ -38,11 +38,32 @@ export const MenuPesquisa = styled.div`
   background-color: #fff;
   display: flex;
   justify-content: center;
+
+  div {
+    position: relative;
+
+    div {
+      content: '';
+      position: absolute;
+      left: 8px;
+      mouse-event: none;
+      top: 0px;
+      bottom: 0px;
+      bottom: 0px;
+      margin: auto 0;
+      background-image: url(https://www.webmotors.com.br/assets/img/icon/search.svg?t=9513);
+      background-size: 24px 24px;
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 24px;
+    }
+  }
 `
 
 export const InputBuscar = styled.input`
-  padding: 8px 16px;
+  padding: 8px 16px 8px 32px;
   border-radius: 8px;
-  border: 1px solid #aaaaaa;
-  font-weight: 500;
+  min-width: 400px;
+  border: 2px solid #dddddd;
+  font-weight: 600;
 `

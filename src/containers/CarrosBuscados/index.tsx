@@ -132,14 +132,17 @@ const CarrosBuscados = () => {
   return (
     <ContainerCarrosBuscados>
       <MenuPesquisa>
-        <InputBuscar
-          spellCheck={false}
-          placeholder="Procure seu carro aqui"
-          value={termo}
-          onChange={(e) => {
-            dispatch(alteraTermo(e.target.value))
-          }}
-        />
+        <div>
+          <InputBuscar
+            spellCheck={false}
+            placeholder="Procure seu carro aqui"
+            value={termo}
+            onChange={(e) => {
+              dispatch(alteraTermo(e.target.value))
+            }}
+          />
+          <div></div>
+        </div>
       </MenuPesquisa>
       {carrosFiltrados.map((each) => (
         <CarroItemRec

@@ -186,7 +186,7 @@ const Footer = () => {
         </svg>
       </SantanderIcon>
       <CopyrightText as="p">
-        © 1995-2024 Webmotors S.A. Todos os direitos reservados.
+        © Tallyson Vieira Freitas. Todos os direitos reservados.
       </CopyrightText>
     </ContainerFooter>
   )

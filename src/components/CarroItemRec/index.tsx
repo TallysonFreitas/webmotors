@@ -3,6 +3,7 @@ import { CarrosselItem, ContainerCarroItem } from './styles'
 import { useDispatch, useSelector } from 'react-redux'
 import { adicionaFavorito, removeFavorito } from '../../redux/reducers/Favorito'
 import { RootReducer } from '../../redux'
+import { useNavigate } from 'react-router-dom'
 
 export type carrosselImgType = { img: string }
 
@@ -27,6 +28,7 @@ const CarroItemRec = ({
 }) => {
   const dispatch = useDispatch()
   const { favs } = useSelector((state: RootReducer) => state.favoritos)
+  const navigate = useNavigate()
 
   return (
     <ContainerCarroItem>
@@ -43,7 +45,12 @@ const CarroItemRec = ({
         ))}
       </Swiper>
       <div className="container-bottom">
-        <a href={link} className="card-info">
+        <a
+          onClick={() => {
+            navigate(link)
+          }}
+          className="card-info"
+        >
           <h6>{nome.toUpperCase()}</h6>
           <p>{descricao}</p>
           <h4>
@@ -77,14 +84,14 @@ const CarroItemRec = ({
             onClick={
               favs.indexOf(nome) === -1
                 ? () => {
-                    dispatch(adicionaFavorito(nome))
+                    dispatch(adicionaFavorito(nome.toLowerCase()))
                   }
                 : () => {
-                    dispatch(removeFavorito(nome))
+                    dispatch(removeFavorito(nome.toLowerCase()))
                   }
             }
           >
-            {favs.indexOf(nome) !== -1 ? (
+            {favs.indexOf(nome.toLowerCase()) !== -1 ? (
               <svg
                 className="sc-bXCLTC fFjeJu MuiSvgIcon-root MuiSvgIcon-fontSizeMedium"
                 focusable="false"

@@ -6,13 +6,14 @@ import {
   MenuCelular
 } from './styles'
 import DropDownMenuItem from '../../components/DropdownMenu'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [menuAtivo, setMenuAtivo] = useState(false)
 
   return (
     <HeaderContainer>
-      <a className="logo" href="/">
+      <Link className="logo" to="/">
         <svg>
           <g>
             <path
@@ -29,7 +30,7 @@ const Header = () => {
             ></path>
           </g>
         </svg>
-      </a>
+      </Link>
       <ul className="nav">
         <li className="dropdown">
           Comprar

@@ -40,7 +40,12 @@ const CarroItemRec = ({
       >
         {img.map((each) => (
           <SwiperSlide key={each}>
-            <CarrosselItem img={each}></CarrosselItem>
+            <CarrosselItem
+              onClick={() => {
+                navigate(link)
+              }}
+              img={each}
+            ></CarrosselItem>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -63,7 +63,7 @@ export const MenuPesquisa = styled.div`
 export const InputBuscar = styled.input`
   padding: 8px 16px 8px 32px;
   border-radius: 8px;
-  min-width: 400px;
+  min-width: 360px;
   border: 2px solid #dddddd;
   font-weight: 600;
 `

@@ -59,10 +59,6 @@ const PaginaVendaVeiculo = () => {
     comparaPrecos: { mediaWebMotors: 0, fipe: 0 }
   })
 
-  useEffect(() => {
-    scroll(0, 0)
-  }, [])
-
   // Busca id no URL
   const urlSearchParams = new URLSearchParams(window.location.search)
   const PostId = urlSearchParams.get('id')
@@ -82,7 +78,7 @@ const PaginaVendaVeiculo = () => {
 
   // Inicia a funcao de busca do obj
   useEffect(() => {
-    requisicaoJson()
+    requisicaoJson(), scroll(0, 0)
   }, [])
 
   return (

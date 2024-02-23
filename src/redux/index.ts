@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit'
 import filtroSlice from './reducers/Filtro'
-
+import favoritoSlice from './reducers/Favorito'
 const store = configureStore({
   reducer: {
-    buscarFiltro: filtroSlice
+    buscarFiltro: filtroSlice,
+    favoritos: favoritoSlice
   }
 })
 

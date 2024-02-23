@@ -166,6 +166,7 @@ export const CapTitulo = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
+  position: relative;
 
   span:first-child {
     color: #f3123c;
@@ -191,6 +192,14 @@ export const CapTitulo = styled.div`
     strong {
       padding: 0 50px 0 0;
     }
+  }
+
+  .fav-button {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+
+    width: 24px;
   }
 `
 

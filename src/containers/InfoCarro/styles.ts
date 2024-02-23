@@ -301,6 +301,7 @@ export const StatusPlus = styled.div`
     overflow: hidden;
     transition:
       opacity 0.4s ease-in 0s,
+      padding 0.4s ease-in 0s,
       max-height 0.4s ease-in 0s;
 
     p {

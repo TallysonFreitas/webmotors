@@ -4,6 +4,7 @@ import { EstiloGlobal } from '../../style'
 import CarrosselVenda from '../../containers/Carrossel-venda'
 import InfoCarro from '../../containers/InfoCarro'
 import { useEffect, useState } from 'react'
+import Loading from '../../containers/Loading'
 
 export type CarroType = {
   id: number
@@ -58,6 +59,7 @@ const PaginaVendaVeiculo = () => {
     loja: { nome: '', localizacao: '' },
     comparaPrecos: { mediaWebMotors: 0, fipe: 0 }
   })
+  const [loading, setLoading] = useState(true)
 
   // Busca id no URL
   const urlSearchParams = new URLSearchParams(window.location.search)
@@ -68,7 +70,8 @@ const PaginaVendaVeiculo = () => {
     fetch('./cars.json').then(function (response) {
       if (response.ok) {
         if (PostId !== null) {
-          response.json().then((data) => setCarro(data[PostId]))
+          response.json().then((data) => setCarro(data[PostId])),
+            setLoading(false)
         } else {
           response.json().then((data) => setCarro(data[0]))
         }
@@ -78,16 +81,23 @@ const PaginaVendaVeiculo = () => {
 
   // Inicia a funcao de busca do obj
   useEffect(() => {
-    requisicaoJson(), scroll(0, 0)
+    scroll(0, 0), setInterval(requisicaoJson, 500)
   }, [])
 
   return (
     <>
       <EstiloGlobal />
       <Header />
-      <CarrosselVenda imgs={carro.imgs} />
-      <InfoCarro carro={carro} />
-      <Footer />
+
+      {loading === true ? (
+        <Loading />
+      ) : (
+        <>
+          <CarrosselVenda imgs={carro.imgs} />
+          <InfoCarro carro={carro} />
+          <Footer />
+        </>
+      )}
     </>
   )
 }

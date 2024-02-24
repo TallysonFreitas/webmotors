@@ -81,7 +81,7 @@ const PaginaVendaVeiculo = () => {
 
   // Inicia a funcao de busca do obj
   useEffect(() => {
-    scroll(0, 0), setInterval(requisicaoJson, 500)
+    scroll(0, 0), setInterval(requisicaoJson, 1000)
   }, [])
 
   return (

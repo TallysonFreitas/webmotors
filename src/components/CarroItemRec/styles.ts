@@ -107,4 +107,5 @@ export const CarrosselItem = styled.div<carrosselImgType>`
   background-image: url(${(props) => props.img});
   background-size: cover;
   background-position: center;
+  cursor: pointer;
 `

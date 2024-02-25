@@ -1,5 +1,5 @@
 [{
-    "id":100001,
+    "id":0,
     "modelo": "Lancer",
     "marca": "Mitsubish",
     "valorAnuncio": 252000,
@@ -19,9 +19,9 @@
     "PromoCondicoes":{"carDelivery": false, "troco":false, "superPreco":false},
     "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
     "loja":{"nome":"Bruno", "localizacao":"Ribeirao Pires, SP"},
-    "comparaPrecos":{"mediaWebMotors":72000, "fipe":73170}
+    "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":72000, "fipe":73170}
 },{
-  "id":100002,
+  "id":1,
   "modelo": "Corolla",
   "marca": "Toyota",
   "valorAnuncio": 189900,
@@ -41,9 +41,9 @@
   "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":false},
   "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
   "loja":{"nome":"Auto Land", "localizacao":"Sao Paulo - SP"},
-  "comparaPrecos":{"mediaWebMotors":117712, "fipe":110203}
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":117712, "fipe":110203}
 },{
-  "id":100003,
+  "id":2,
   "modelo": "Civic",
   "marca": "Honda",
   "valorAnuncio": 109800,
@@ -63,9 +63,9 @@
   "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":true},
   "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
   "loja":{"nome":"Rotta 2008", "localizacao":"Curitiba, PR"},
-  "comparaPrecos":{"mediaWebMotors":110118, "fipe":106771}
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":110118, "fipe":106771}
 },{
-  "id":100004,
+  "id":3,
   "modelo": "Jetta",
   "marca": "Volkswagen",
   "valorAnuncio": 174990,
@@ -85,9 +85,9 @@
   "PromoCondicoes":{"carDelivery": true, "troco":false, "superPreco":false},
   "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
   "loja":{"nome":"Sunny Multimarcas", "localizacao":"São Paulo, SP"},
-  "comparaPrecos":{"mediaWebMotors":170316, "fipe":169953}
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":170316, "fipe":169953}
 },{
-  "id":100005,
+  "id":4,
   "modelo": "Uno",
   "marca": "Fiat",
   "valorAnuncio": 127900,
@@ -107,9 +107,9 @@
   "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":true},
   "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
   "loja":{"nome":"Autop", "localizacao":"Belo Horizonte, MG"},
-  "comparaPrecos":{"mediaWebMotors":152678, "fipe":130202}
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":152678, "fipe":130202}
 },{
-  "id":100006,
+  "id":5,
   "modelo": "Fit",
   "marca": "Honda",
   "valorAnuncio": 72900,
@@ -129,9 +129,9 @@
   "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":false},
   "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
   "loja":{"nome":"Valcar Veiculos", "localizacao":"São Paulo, SP"},
-  "comparaPrecos":{"mediaWebMotors":71890, "fipe":70493}
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":71890, "fipe":70493}
 },{
-  "id":100007,
+  "id":6,
   "modelo": "Gol",
   "marca": "Volkswagen",
   "valorAnuncio": 120900,
@@ -151,9 +151,9 @@
   "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":true},
   "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
   "loja":{"nome":"Autop", "localizacao":"Belo Horizonte, MG"},
-  "comparaPrecos":{"mediaWebMotors":179902, "fipe":108893}
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":179902, "fipe":108893}
 },{
-  "id":100008,
+  "id":7,
   "modelo": "Golf",
   "marca": "Volkswagen",
   "valorAnuncio": 210990,
@@ -173,5 +173,49 @@
   "PromoCondicoes":{"carDelivery": false, "troco":true, "superPreco":false},
   "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
   "loja":{"nome":"Cup Car Series Ltda", "localizacao":"Piracicaba, SP"},
-  "comparaPrecos":{"mediaWebMotors":208218, "fipe":203637}
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":208218, "fipe":203637}
+},{
+  "id":8,
+  "modelo": "Taycan",
+  "marca": "Porsche",
+  "valorAnuncio": 929000,
+  "informacoes": {
+    "cidadeCapital": "Campinas - SP",
+    "ano": "2022/2022",
+    "KM": "2.800",
+    "cambio": "Automático",
+    "carroceria": "Sedã",
+    "combustível": "Elétrico",
+    "finalDePlaca": 1,
+    "cor": "Cinza",
+    "aceitaTroca": "Sim"
+  },
+  "sobreVeiculo":"GARANTIA DE FÁBRICA ATÉ 08/2022 CERTIFICADO PORSCHE APPROVED (1 ANO DE GARANTIA ADICIONAL) - COR EXTERIOR CINZA VULCANO METÁLICO - INTERNO EM RACE-TEX COM ADICIONAIS EM COURO PRETO - SPORT CHRONO - FARÓIS MATRIX (PDLS) PLUS - TETO PANORÂMICO FIXO - HEAD-UP DISPLAY - ASSISTENCIA DE MUDANÇA DE FAIXA - SISTEMA DE ENTRETENIMENTO TRASEIRO - DISPLAY DO PASSAGEIRO - CONTROLE DE CRUZEIRO ADAPTATIVO - PARKASSIST DIANTEIRO E TRASEIRO - LANTERNAS TRASEIRAS EXCLUSIVE - CARREGADOR CONNECT MÓVEL Outros Opcionais: Direção Elétrica, Comando de áudio no volante, Banco bi-partido, Controle de estabilidade, Distribuição eletrônica de frenagem, Kit Multimídia, Pára-choques na cor do veículo.",
+  "imgs":["https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240117/porsche-taycan-gts-eletrico-wmimagem21195241266.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240117/porsche-taycan-gts-eletrico-wmimagem21195272653.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240117/porsche-taycan-gts-eletrico-wmimagem21195302842.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240117/porsche-taycan-gts-eletrico-wmimagem21195323911.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240117/porsche-taycan-gts-eletrico-wmimagem21195356169.webp?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2024/202401/20240117/porsche-taycan-gts-eletrico-wmimagem21195637332.webp?s=fill&w=552&h=414&q=60"],
+  "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":true},
+  "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
+  "loja":{"nome":"Cup Car Series Ltda", "localizacao":"Piracicaba, SP"},
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":924630, "fipe":851412}
+},{
+  "id":9,
+  "modelo": "Model S",
+  "marca": "Tesla",
+  "valorAnuncio": 949990,
+  "informacoes": {
+    "cidadeCapital": "Piracicaba - SP",
+    "ano": "2021/2021",
+    "KM": "1.600",
+    "cambio": "Automático",
+    "carroceria": "Sedã",
+    "combustível": "Gasolina e elétrico",
+    "finalDePlaca": 0,
+    "cor": "Cinza",
+    "aceitaTroca": "Sim"
+  },
+  "sobreVeiculo":"Reprogramação de TCU e ECU Perfortech, intake, velas de RS7, bobinas APR, manutenção em dia e pneus novos. Visitas apenas sob agendamento. Outros Opcionais: Farol de neblina, Direção Elétrica, Comando de áudio no volante, Banco bi-partido, Controle de estabilidade, Distribuição eletrônica de frenagem, Kit Multimídia, Pára-choques na cor do veículo.",
+  "imgs":["https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230927/tesla-model-s-eletrico-plaid-wmimagem11272224118.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230927/tesla-model-s-eletrico-plaid-wmimagem11272277514.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230927/tesla-model-s-eletrico-plaid-wmimagem11272325744.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230927/tesla-model-s-eletrico-plaid-wmimagem11272385914.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230927/tesla-model-s-eletrico-plaid-wmimagem11272443327.jpg?s=fill&w=552&h=414&q=60","https://image.webmotors.com.br/_fotos/anunciousados/gigante/2023/202309/20230927/tesla-model-s-eletrico-plaid-wmimagem11272715491.jpg?s=fill&w=552&h=414&q=60"],
+  "PromoCondicoes":{"carDelivery": true, "troco":true, "superPreco":true},
+  "itensVeiculo":["Airbag","Alarme","Ar quente","Banco com regulagem de altura","Computador de bordo","Controle de tração","Desembaçador traseiro","Ar condicionado","Encosto de cabeça traseiro","Freio ABS","Protetor de caçamba","Controle automático de velocidade","Retrovisores elétricos","Rodas de liga leve","Sensor de chuva","Sensor de estacionamento","Retrovisor fotocrômico","Travas elétricas","Vidros elétricos","Volante com regulagem de altura","Capota marítima","Bancos em couro","Tração 4x4","Direção hidráulica"],
+  "loja":{"nome":"Boca Mafra Premium", "localizacao":"Balneário Camboriú, SC"},
+  "link":"/comprar-veiculo?id=","comparaPrecos":{"mediaWebMotors":1016626, "fipe":0}
 }]

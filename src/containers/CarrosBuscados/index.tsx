@@ -12,7 +12,7 @@ const exemploRetorno = {
   informacoes: {
     cidadeCapital: 'Piracicaba - SP',
     ano: '2021/2021',
-    KM: '1.600',
+    KM: 1600,
     cambio: 'Automático',
     carroceria: 'Sedã',
     combustível: 'Gasolina e elétrico',
@@ -51,7 +51,7 @@ const CarrosBuscados = ({ array }: { array: CarrosFiltradosType[] }) => {
           img={each.imgs}
           anoModelo={`${each.informacoes.ano}`}
           descricao={`${each.sobreVeiculo.slice(0, 80)}...`}
-          kmRodado={0}
+          kmRodado={each.informacoes.KM}
           nome={`${each.marca} ${each.modelo}`}
           valor={each.valorAnuncio}
           localizacao={each.informacoes.cidadeCapital}

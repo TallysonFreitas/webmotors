@@ -67,7 +67,7 @@ const PaginaVendaVeiculo = () => {
 
   // Usa fetch para buscar obj carro
   async function requisicaoJson() {
-    fetch('./cars.json').then(function (response) {
+    await fetch('./cars.json').then(function (response) {
       if (response.ok) {
         if (PostId !== null) {
           response.json().then((data) => setCarro(data[PostId])),

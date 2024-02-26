@@ -6,7 +6,7 @@
     "informacoes": {
       "cidadeCapital": "Ribeirao Pires - SP",
       "ano": "2014/2015",
-      "KM": "40.000",
+      "KM": 40000,
       "cambio": "Automatizada",
       "carroceria": "Sedã",
       "combustível": "Gasolina",
@@ -28,7 +28,7 @@
   "informacoes": {
     "cidadeCapital": "Sao Paulo - SP",
     "ano": "2020/2021",
-    "KM": "26.042",
+    "KM": 26042,
     "cambio": "CVT",
     "carroceria": "Sedã",
     "combustível": "Gasolina e elétrico",
@@ -50,7 +50,7 @@
   "informacoes": {
     "cidadeCapital": "Curitiba - PR",
     "ano": "2018/2019",
-    "KM": "78.826",
+    "KM": 78826,
     "cambio": "CVT",
     "carroceria": "Sedã",
     "combustível": "Gasolina e álcool",
@@ -72,7 +72,7 @@
   "informacoes": {
     "cidadeCapital": "Sao Paulo - SP",
     "ano": "2020/2020",
-    "KM": "40.600",
+    "KM": 40600,
     "cambio": "Automático",
     "carroceria": "Sedã",
     "combustível": "Gasolina e álcool",
@@ -94,7 +94,7 @@
   "informacoes": {
     "cidadeCapital": "Natal - RN",
     "ano": "2022/2023",
-    "KM": "31.691",
+    "KM": 31691,
     "cambio": "Manual",
     "carroceria": "Sedã",
     "combustível": "Gasolina e álcool",
@@ -116,7 +116,7 @@
   "informacoes": {
     "cidadeCapital": "Sao Paulo - SP",
     "ano": "2017/2018",
-    "KM": "104.556",
+    "KM": 104556,
     "cambio": "Automático",
     "carroceria": "Hatchback",
     "combustível": "Gasolina e álcool",
@@ -138,7 +138,7 @@
   "informacoes": {
     "cidadeCapital": "Criciúma - SC",
     "ano": "2022/2023",
-    "KM": "900",
+    "KM": 900,
     "cambio": "Manual",
     "carroceria": "Hatchback",
     "combustível": "Gasolina e álcool",
@@ -160,7 +160,7 @@
   "informacoes": {
     "cidadeCapital": "Piracicaba - SP",
     "ano": "2018/2019",
-    "KM": "43.779",
+    "KM": 43779,
     "cambio": "Automático",
     "carroceria": "Hatchback",
     "combustível": "Gasolina",
@@ -182,7 +182,7 @@
   "informacoes": {
     "cidadeCapital": "Campinas - SP",
     "ano": "2022/2022",
-    "KM": "2.800",
+    "KM": 2800,
     "cambio": "Automático",
     "carroceria": "Sedã",
     "combustível": "Elétrico",
@@ -204,7 +204,7 @@
   "informacoes": {
     "cidadeCapital": "Piracicaba - SP",
     "ano": "2021/2021",
-    "KM": "1.600",
+    "KM": 1600,
     "cambio": "Automático",
     "carroceria": "Sedã",
     "combustível": "Gasolina e elétrico",

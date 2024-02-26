@@ -45,15 +45,19 @@ const PesquisarVeiculo = () => {
   >([])
 
   async function carregaVeiculos() {
-    await fetch('./cars.json')
-      .then((data) => data.json())
-      .then((response) => {
-        setCarrosCarregados(response),
-          setCarrosFiltrados(response),
-          setInterval(() => {
-            setCarregando(false)
-          }, 1000)
-      })
+    try {
+      await fetch('./cars.json')
+        .then((data) => data.json())
+        .then((response) => {
+          setCarrosCarregados(response),
+            setCarrosFiltrados(response),
+            setTimeout(() => {
+              setCarregando(false)
+            }, 1000)
+        })
+    } catch (e) {
+      console.error(`ocorreu um erro: ${e}`)
+    }
   }
 
   const [carrosFiltrados, setCarrosFiltrados] = useState<CarrosFiltradosType[]>(
@@ -74,7 +78,7 @@ const PesquisarVeiculo = () => {
         )
       )
     }
-  }, [termo])
+  }, [])
 
   // ao carregar a pagina executa Promisse para carregar veiculo
   useEffect(() => {

@@ -67,21 +67,24 @@ const PaginaVendaVeiculo = () => {
 
   // Usa fetch para buscar obj carro
   async function requisicaoJson() {
-    await fetch('./cars.json').then(function (response) {
-      if (response.ok) {
+    try {
+      await fetch('./cars.json').then(function (response) {
         if (PostId !== null) {
           response.json().then((data) => setCarro(data[PostId])),
             setLoading(false)
-        } else {
-          response.json().then((data) => setCarro(data[0]))
         }
-      }
-    })
+      })
+    } catch (e) {
+      console.error(`ocorreu um erro: ${e}`)
+    }
   }
 
   // Inicia a funcao de busca do obj
   useEffect(() => {
-    scroll(0, 0), setInterval(requisicaoJson, 1000)
+    scroll(0, 0),
+      setTimeout(() => {
+        requisicaoJson()
+      }, 1000)
   }, [])
 
   return (

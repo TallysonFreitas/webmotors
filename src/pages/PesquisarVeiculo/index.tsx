@@ -78,7 +78,7 @@ const PesquisarVeiculo = () => {
         )
       )
     }
-  }, [])
+  }, [termo])
 
   // ao carregar a pagina executa Promisse para carregar veiculo
   useEffect(() => {

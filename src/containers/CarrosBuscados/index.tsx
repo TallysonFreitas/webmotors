@@ -3,77 +3,33 @@ import CarroItemRec from '../../components/CarroItemRec'
 import { ContainerCarrosBuscados, InputBuscar, MenuPesquisa } from './style'
 import { RootReducer } from '../../redux'
 import { alteraTermo } from '../../redux/reducers/Filtro'
-import { useEffect, useState } from 'react'
 
-const CarrosBuscados = () => {
+const exemploRetorno = {
+  id: 100010,
+  modelo: 'Model S',
+  marca: 'Tesla',
+  valorAnuncio: 949990,
+  informacoes: {
+    cidadeCapital: 'Piracicaba - SP',
+    ano: '2021/2021',
+    KM: '1.600',
+    cambio: 'Automático',
+    carroceria: 'Sedã',
+    combustível: 'Gasolina e elétrico',
+    finalDePlaca: 0,
+    cor: 'Cinza',
+    aceitaTroca: 'Sim'
+  },
+  sobreVeiculo: '',
+  imgs: [''],
+  link: ''
+}
+type CarrosFiltradosType = typeof exemploRetorno
+
+const CarrosBuscados = ({ array }: { array: CarrosFiltradosType[] }) => {
   const { termo } = useSelector((state: RootReducer) => state.buscarFiltro)
   const dispatch = useDispatch()
-
-  const exemploRetorno = {
-    id: 100010,
-    modelo: 'Model S',
-    marca: 'Tesla',
-    valorAnuncio: 949990,
-    informacoes: {
-      cidadeCapital: 'Piracicaba - SP',
-      ano: '2021/2021',
-      KM: '1.600',
-      cambio: 'Automático',
-      carroceria: 'Sedã',
-      combustível: 'Gasolina e elétrico',
-      finalDePlaca: 0,
-      cor: 'Cinza',
-      aceitaTroca: 'Sim'
-    },
-    sobreVeiculo: '',
-    imgs: [''],
-    PromoCondicoes: { carDelivery: true, troco: true, superPreco: true },
-    itensVeiculo: [''],
-    loja: {
-      nome: 'Boca Mafra Premium',
-      localizacao: 'Balneário Camboriú, SC'
-    },
-    link: '',
-    comparaPrecos: { mediaWebMotors: 1016626, fipe: 0 }
-  }
-  type CarrosFiltradosType = typeof exemploRetorno
-
-  const [carrosCarregados, setCarrosCarregados] = useState<
-    CarrosFiltradosType[]
-  >([])
-
-  async function carregaVeiculos() {
-    await fetch('./cars.json')
-      .then((data) => data.json())
-      .then((response) => {
-        setCarrosCarregados(response), setCarrosFiltrados(response)
-      })
-  }
-
-  const [carrosFiltrados, setCarrosFiltrados] = useState<CarrosFiltradosType[]>(
-    []
-  )
-
-  // atualiza busca de carros
-  useEffect(() => {
-    if (termo == '') {
-      setCarrosFiltrados(carrosCarregados)
-    } else {
-      setCarrosFiltrados(
-        carrosCarregados.filter(
-          (each) =>
-            `${each.marca} ${each.modelo}`
-              .toLowerCase()
-              .includes(termo.toLowerCase()) == true
-        )
-      )
-    }
-  }, [termo])
-
-  // ao carregar a pagina executa Promisse para carregar veiculo
-  useEffect(() => {
-    carregaVeiculos()
-  }, [])
+  console.log(array)
 
   return (
     <ContainerCarrosBuscados>
@@ -90,7 +46,7 @@ const CarrosBuscados = () => {
           <div></div>
         </div>
       </MenuPesquisa>
-      {carrosFiltrados.map((each) => (
+      {array.map((each) => (
         <CarroItemRec
           img={each.imgs}
           anoModelo={`${each.informacoes.ano}`}

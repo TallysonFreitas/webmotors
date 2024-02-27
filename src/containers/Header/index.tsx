@@ -7,9 +7,11 @@ import {
 } from './styles'
 import DropDownMenuItem from '../../components/DropdownMenu'
 import { Link } from 'react-router-dom'
+import MenuFavoritos from '../MenuFavoritos'
 
 const Header = () => {
-  const [menuAtivo, setMenuAtivo] = useState(false)
+  const [menuCellAtivo, setMenuCellAtivo] = useState(false)
+  const [menuFavoritos, setMenuFavoritos] = useState(false)
 
   return (
     <HeaderContainer>
@@ -338,8 +340,12 @@ const Header = () => {
             Entrar
           </a>
         </li>
-        <li>
-          <a href="#">
+        <li
+          onClick={() => {
+            setMenuFavoritos(!menuFavoritos), console.log(menuFavoritos)
+          }}
+        >
+          <a>
             <svg>
               <path
                 className="_qNJk-"
@@ -360,7 +366,7 @@ const Header = () => {
         </li>
         <li
           onClick={() => {
-            setMenuAtivo(!menuAtivo)
+            setMenuCellAtivo(!menuCellAtivo)
           }}
         >
           <a href="#">
@@ -373,7 +379,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
-      <MenuCelular ativo={menuAtivo}>
+      <MenuCelular ativo={menuCellAtivo}>
         <div className="container-div">
           <div className="header-menu">
             <svg
@@ -421,7 +427,7 @@ const Header = () => {
             </h2>
             <CloseButton
               onClick={() => {
-                setMenuAtivo(false)
+                setMenuCellAtivo(false)
               }}
             >
               <div></div>
@@ -711,6 +717,7 @@ const Header = () => {
           </LinkDropdown>
         </div>
       </MenuCelular>
+      <MenuFavoritos visivel={menuFavoritos}></MenuFavoritos>
     </HeaderContainer>
   )
 }

@@ -1,7 +1,13 @@
 import React, { useState } from 'react'
 import { DropdownList, ItemDropdown } from './style'
 
-const DropDownMenuItem = ({ children }: { children: React.ReactNode }) => {
+const DropDownMenuItem = ({
+  titulo,
+  children
+}: {
+  titulo: string
+  children: React.ReactNode
+}) => {
   const [estaAtivo, setEstaAtivo] = useState(false)
   return (
     <>
@@ -11,25 +17,15 @@ const DropDownMenuItem = ({ children }: { children: React.ReactNode }) => {
           setEstaAtivo(!estaAtivo)
         }}
       >
-        {children}
+        {titulo}
+        <svg className="_fzBJV" height="24" width="24">
+          <path
+            className="_qNJk-"
+            d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          ></path>
+        </svg>
       </ItemDropdown>
-      <DropdownList ativo={estaAtivo}>
-        <li>
-          <a href="#">Carros usados</a>
-        </li>
-        <li>
-          <a href="#">Carros novos</a>
-        </li>
-        <li>
-          <a href="#">Motos usadas</a>
-        </li>
-        <li>
-          <a href="#">Motos novas</a>
-        </li>
-        <li>
-          <a href="#">Vistoriado</a>
-        </li>
-      </DropdownList>
+      <DropdownList ativo={estaAtivo}>{children}</DropdownList>
     </>
   )
 }

@@ -24,7 +24,7 @@ const exemploRetorno = {
   imgs: [''],
   link: ''
 }
-type CarrosFiltradosType = typeof exemploRetorno
+export type CarrosFiltradosType = typeof exemploRetorno
 
 const CarrosBuscados = ({ array }: { array: CarrosFiltradosType[] }) => {
   const { termo } = useSelector((state: RootReducer) => state.buscarFiltro)

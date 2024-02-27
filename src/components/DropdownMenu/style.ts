@@ -24,7 +24,7 @@ export const DropdownList = styled.ul<DropDownType>`
   transition: all ease-in-out 0.3s;
   width: 100%;
   overflow-y: hidden;
-  height: ${(props) => (props.ativo ? '280px' : '0px')};
+  max-height: ${(props) => (props.ativo ? '400px' : '0px')};
 
   li {
     padding: 16px 44px;
@@ -34,6 +34,13 @@ export const DropdownList = styled.ul<DropDownType>`
       text-decoration: none;
       cursor: pointer;
       color: inherit;
+      display: flex;
+      align-items: center;
+
+      svg {
+        height: 100%;
+        margin-right: 4px;
+      }
     }
   }
 `

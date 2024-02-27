@@ -68,7 +68,7 @@ export const BuscaContainer = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    @media (max-width: 640px) {
+    @media (max-width: 900px) {
       flex-direction: column;
       gap: 8px;
     }
@@ -76,7 +76,7 @@ export const BuscaContainer = styled.div`
     .link {
       background-color: #e00;
       transition: all ease 0.2s;
-      width: 20%;
+      min-width: 20%;
       height: 45px;
       display: flex;
       align-items: center;
@@ -87,9 +87,10 @@ export const BuscaContainer = styled.div`
       font-weight: 600;
       font-size: 14px;
       cursor: pointer;
+      padding: 8px;
 
       @media (max-width: 900px) {
-        width: 80%;
+        max-width: 480px;
       }
 
       &:hover {

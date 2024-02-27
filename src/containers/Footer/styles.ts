@@ -8,75 +8,14 @@ export const ContainerLinks = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap: 80px;
   background-color: #2e2d37;
-
-  div {
-    padding: 40px;
-    h4 {
-      font-size: 16px;
-      color: #fff;
-      margin-bottom: 8px;
-    }
-    ul {
-      margin-bottom: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-      li {
-        max-width: 180px;
-        a {
-          text-decoration: none;
-          font-weight: 300;
-          color: #fff;
-          font-size: 12px;
-          line-height: 0.5;
-        }
-        a:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
+  padding: 40px;
 
   @media (max-width: 900px) {
     flex-direction: column;
     gap: 0px;
-
-    div {
-      padding: 0px;
-
-      h4 {
-        padding: 8px;
-        position: relative;
-
-        &::after {
-          content: '+';
-          position: absolute;
-          right: 16px;
-          top: 0px;
-        }
-      }
-
-      ul {
-        display: none;
-        background-color: #696977;
-        padding: 8px;
-      }
-
-      &:hover > ul {
-        display: flex;
-      }
-
-      &:hover > h4 {
-        &::after {
-          content: '-';
-          position: absolute;
-          right: 16px;
-          top: 0px;
-        }
-      }
-    }
+    padding: 0px;
   }
 `
 

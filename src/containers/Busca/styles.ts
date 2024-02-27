@@ -86,6 +86,7 @@ export const BuscaContainer = styled.div`
       text-decoration: none;
       font-weight: 600;
       font-size: 14px;
+      cursor: pointer;
 
       @media (max-width: 900px) {
         width: 80%;

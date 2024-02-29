@@ -38,7 +38,6 @@ const MenuFavoritos = ({ visivel }: { visivel: boolean }) => {
         return carro
       }
     })
-    console.log(Filtro)
     setCarrosFiltrados(Filtro)
   }, [favs, carros])
   useEffect(() => {
@@ -58,19 +57,26 @@ const MenuFavoritos = ({ visivel }: { visivel: boolean }) => {
             setContainerVisivel(false)
           }}
         >
-          {carrosFiltrados.map((each) => (
-            <CarroItemRec
-              img={each.imgs}
-              anoModelo={`${each.informacoes.ano}`}
-              descricao={`${each.sobreVeiculo.slice(0, 80)}...`}
-              kmRodado={each.informacoes.KM}
-              nome={`${each.marca} ${each.modelo}`}
-              valor={each.valorAnuncio}
-              localizacao={each.informacoes.cidadeCapital}
-              key={each.id}
-              link={`${each.link}${each.id}`}
-            />
-          ))}
+          {carrosFiltrados.length === 0 ? (
+            <>
+              <h4>nao ha carros favoritos</h4>
+              <p>adicione algum carro aos favoritos e voce o encontrara aqui</p>
+            </>
+          ) : (
+            carrosFiltrados.map((each) => (
+              <CarroItemRec
+                img={each.imgs}
+                anoModelo={`${each.informacoes.ano}`}
+                descricao={`${each.sobreVeiculo.slice(0, 80)}...`}
+                kmRodado={each.informacoes.KM}
+                nome={`${each.marca} ${each.modelo}`}
+                valor={each.valorAnuncio}
+                localizacao={each.informacoes.cidadeCapital}
+                key={each.id}
+                link={`${each.link}${each.id}`}
+              />
+            ))
+          )}
         </div>
         <BotaoFechar
           onClick={() => {

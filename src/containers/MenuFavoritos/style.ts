@@ -12,6 +12,7 @@ export const ContainerMenuFavoritos = styled.div<MenuFavoritosType>`
   height: 100vh;
   background-color: #ffffff;
   padding: 16px;
+  overflow: scroll;
   transform: ${(props) =>
     props.ativo ? 'translateX(0vw)' : 'translateX(-100vw)'};
   transition: transform ease 0.2s;
@@ -22,13 +23,11 @@ export const ContainerMenuFavoritos = styled.div<MenuFavoritosType>`
     flex-direction: column;
     position: relative;
     gap: 16px;
-    overflow: scroll;
 
     .lista-favoritos {
       display: flex;
       flex-direction: column;
       gap: 16px;
-      overflow: scroll;
     }
   }
 `

@@ -3,7 +3,8 @@ import { BotaoFechar, ContainerMenuFavoritos } from './style'
 import { RootReducer } from '../../redux'
 import { useEffect, useState } from 'react'
 import { CarrosFiltradosType } from '../CarrosBuscados'
-import CarroItemRec from '../../components/CarroItemRec'
+
+import FavoritoItem from '../../components/FavoritoItem'
 
 const MenuFavoritos = ({ visivel }: { visivel: boolean }) => {
   const [containerVisivel, setContainerVisivel] = useState<boolean>(visivel)
@@ -63,18 +64,19 @@ const MenuFavoritos = ({ visivel }: { visivel: boolean }) => {
               <p>adicione algum carro aos favoritos e voce o encontrara aqui</p>
             </>
           ) : (
-            carrosFiltrados.map((each) => (
-              <CarroItemRec
-                img={each.imgs}
-                anoModelo={`${each.informacoes.ano}`}
-                descricao={`${each.sobreVeiculo.slice(0, 80)}...`}
-                kmRodado={each.informacoes.KM}
-                nome={`${each.marca} ${each.modelo}`}
-                valor={each.valorAnuncio}
-                localizacao={each.informacoes.cidadeCapital}
-                key={each.id}
-                link={`${each.link}${each.id}`}
-              />
+            carrosFiltrados.map((carro) => (
+              <FavoritoItem
+                key={carro.id}
+                anoModelo={carro.informacoes.ano}
+                descricao={carro.sobreVeiculo.slice(0, 80)}
+                img={carro.imgs}
+                kmRodado={carro.informacoes.KM}
+                link={carro.link}
+                localizacao={carro.informacoes.cidadeCapital}
+                nome={`${carro.marca} ${carro.modelo}`}
+                valor={carro.valorAnuncio}
+                id={carro.id}
+              ></FavoritoItem>
             ))
           )}
         </div>

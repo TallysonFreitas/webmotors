@@ -7,6 +7,7 @@ export const ContainerFavoritoItem = styled.div`
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   display: flex;
+  cursor: pointer;
 
   .card-bottom {
     padding: 8px 16px;

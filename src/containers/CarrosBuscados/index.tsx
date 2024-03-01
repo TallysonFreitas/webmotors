@@ -29,7 +29,6 @@ export type CarrosFiltradosType = typeof exemploRetorno
 const CarrosBuscados = ({ array }: { array: CarrosFiltradosType[] }) => {
   const { termo } = useSelector((state: RootReducer) => state.buscarFiltro)
   const dispatch = useDispatch()
-  console.log(array)
 
   return (
     <ContainerCarrosBuscados>

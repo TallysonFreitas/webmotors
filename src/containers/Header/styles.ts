@@ -105,26 +105,25 @@ export const HeaderContainer = styled.header`
     }
 
     li {
-      a {
-        color: black;
-        text-decoration: none;
-        display: flex;
-        font-weight: semi-bold;
-        font-size: 12px;
-        align-items: center;
-        gap: 2px;
+      color: black;
+      text-decoration: none;
+      display: flex;
+      font-weight: semi-bold;
+      font-size: 12px;
+      align-items: center;
+      gap: 2px;
+      cursor: pointer;
 
-        svg {
+      svg {
+        height: 24px;
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        path {
           height: 24px;
           width: 24px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          path {
-            height: 24px;
-            width: 24px;
-          }
         }
       }
     }

@@ -39,6 +39,7 @@ export const BotaoFechar = styled.div`
   top: 16px;
   right: 16px;
   font-size: 15px;
+  cursor: pointer;
 
   div:first-child {
     background-color: black;

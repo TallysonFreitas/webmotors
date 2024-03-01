@@ -57,7 +57,7 @@ const CarroItemRec = ({
           className="card-info"
         >
           <h6>{nome.toUpperCase()}</h6>
-          <p>{descricao}</p>
+          <p>{descricao.slice(0, 60)}</p>
           <h4>
             {valor.toLocaleString('pt-br', {
               style: 'currency',

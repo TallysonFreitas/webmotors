@@ -35,12 +35,10 @@ export const ContainerMenuFavoritos = styled.div<MenuFavoritosType>`
 export const BotaoFechar = styled.div`
   width: 24px;
   height: 24px;
-  position: absolute;
-  top: 0px;
+  position: fixed;
+  top: 16px;
   right: 16px;
   font-size: 15px;
-  margin-top: 0;
-  margin-right: 0;
 
   div:first-child {
     background-color: black;

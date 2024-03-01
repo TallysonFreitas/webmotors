@@ -19,7 +19,10 @@ export const ContainerCarroItem = styled.div`
 
   .container-bottom {
     @media (max-width: 640px) {
-      height: 140px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     .card-info {
       cursor: pointer;
@@ -85,7 +88,7 @@ export const ContainerCarroItem = styled.div`
       }
 
       span {
-        font-size: 12px;
+        font-size: 11px;
         color: #aaa;
         display: flex;
         align-items: center;
